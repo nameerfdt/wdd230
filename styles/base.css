@@ -53,7 +53,7 @@
 
   #main-grid {
     display: grid;
-    grid-template: 1fr;
+    grid-template-columns: auto;
     margin-top: -20px;
   }
 

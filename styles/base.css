@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-
-  #content {
-    max-width: 1600px;
-    /*margin: 0 auto;*/
-  }
 
   header {
     background: #B0B493;
@@ -25,6 +18,7 @@
   }
 
   body {
+    max-width: 800px;
     font-family: Roboto, Arial, sans-serif;
     margin: auto;
   }
@@ -38,13 +32,13 @@
   }
 
   nav {
-    display: block;
+    /*display: block;*/
     background: #000000;
     text-align: center;
     margin-top: -20px;
   }
 
-  #nav-list a {
+  nav li a {
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -66,6 +60,7 @@
     margin: 0;
     padding: 15px;
   }
+
   h2 {
     margin-bottom: 0;
   }
@@ -107,21 +102,4 @@
     padding: 5px;
     text-align: center;
     grid-column: 1 / 3;
-  }
-
-  /*this is @media query. Don't add anything after*/
-
-  @media screen and (max-width: 900px) {
-    #header-grid, #main-grid {
-      display: block;
-      height: auto;
-    }
-    #hero-img {
-      margin: auto;
-    }
-
-    h1 {
-      display: block;
-      font-size: 40px;
-    }
   }

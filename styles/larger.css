@@ -4,13 +4,14 @@
       color: #B0B493;
     }
     nav {
-      display: flex;
       background: #B0B493;
       }
 
     nav ul {
+      display: flex;
       justify-content: space-around;
-    }  
+    }
+      
     nav li a {
       color: black;
       }

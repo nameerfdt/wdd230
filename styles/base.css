@@ -2,6 +2,7 @@
   header {
     background: #B0B493;
     padding: 2rem;
+    margin: 0 auto;
   }
 
   #header-grid {
@@ -35,11 +36,11 @@
     /*display: block;*/
     background: #000000;
     text-align: center;
-    margin-top: -20px;
+    margin: 0 auto;
+    padding: 10px;
   }
 
   nav li a {
-    padding: 10px;
     text-decoration: none;
     color: white;
   }

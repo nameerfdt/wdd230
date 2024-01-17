@@ -1,13 +1,17 @@
 @media screen and (min-width: 900px) {
     header, footer {
-        background-color: black;
-        color: #B0B493;
+      background-color: black;
+      color: #B0B493;
     }
     nav {
-        background: #B0B493;
+      display: flex;
+      background: #B0B493;
       }
 
+    nav ul {
+      justify-content: space-around;
+    }  
     nav li a {
-        color: black;
+      color: black;
       }
 }

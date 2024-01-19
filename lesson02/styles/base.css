@@ -1,7 +1,49 @@
 body {
-    max-width: 900;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    color: black;
 }
 
-main {
-    display: grid;
+header {
+    background-color: #103056;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    text-align: center;
+    font-family: handlee, Arial;
+    color: white;
+}
+
+.card {
+    border: 2px solid black;
+    margin: 15px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+h3 {
+    grid-column: 1/2;
+    background-color: #103056;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+p, a{
+    padding-left: 10px;
+    font-family: jost, sans-serif;  
+}
+
+a {
+    padding-bottom: 10px;
+}
+
+img {
+    display: block;
+    max-width: 95%; 
+    border: 1px solid black;
+    margin: 15px auto;
 }

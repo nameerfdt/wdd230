@@ -5,6 +5,7 @@
     }
     nav {
       background: #B0B493;
+      padding: 10px;
       }
 
     nav ul {
@@ -15,6 +16,25 @@
     nav li a {
       color: black;
       }
+
+    .hamburgernav {
+      display: flex;
+      background-color: #B0B493;
+      justify-content: space-around;
+      margin: 0 auto;
+    }
+      
+    .hamburgernav li {
+      display: block
+    }
+      
+    .hamburgernav a {
+      text-align: center;
+    }
+      
+    #hamburgermenu {
+      display: none;
+    }
 
     #main-grid {
       grid-template-columns: 1fr 1fr;

@@ -96,7 +96,22 @@
     list-style-type: none;
     padding-bottom: 10px;
   }
-   
+  
+  .googlemaps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    ;
+  }
+  .googlemaps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
   footer {
     background: #B0B493;
     padding: 5px;

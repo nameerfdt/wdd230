@@ -82,6 +82,10 @@
     content: "❌";
   }
 
+  .hamburgernav a:active::before {
+    content:"📍";
+  }
+
   nav li a {
     text-decoration: none;
     color: white;

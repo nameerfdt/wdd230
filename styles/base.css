@@ -31,7 +31,7 @@
     font-family: Handlee, Arial, sans-serif;
     font-size: 50px;
   }
-/* may not need this */
+
   nav {
     background: #000000;
     text-align: center;
@@ -61,9 +61,8 @@
   #hamburgernav a {
     display: block;
     padding: 0.75rem;
-    text-align: left;
+    /* text-align: left; */
     text-decoration: none;
-    /* color:black; */
     font-weight: 700;
     transition: 0.5s;
     font-size: 1.5em;

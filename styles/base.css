@@ -35,7 +35,8 @@
   nav {
     background: #000000;
     text-align: center;
-    margin: 0px auto;
+    margin: auto;
+    margin-bottom: 10px;
   }
 
   #hamburgermenu {
@@ -101,14 +102,16 @@
     grid-column: 1 / 2;
   }
 
-  h2, h3 {
+ h3 {
     text-align: center;
     margin: 0;
     padding: 15px;
   }
 
   h2 {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    margin: 15px;
+    text-align: center;
   }
 
   hr.line-break {

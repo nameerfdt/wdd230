@@ -1,0 +1,28 @@
+h1, h2{
+    background-color: #3d6080;
+    color: #F6F1D1;
+    font-family: 'Mooli', sans-serif;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h2 {
+    padding: 0.5em;
+}
+
+h3 {
+    background-color: #F6F1D1;
+    color: #3d6080;
+    font-family: 'Mooli', sans-serif;
+    margin: 0 auto;
+    padding: 0.25em;
+    padding-left: 30px;
+}
+
+p, a, li, h3:nth-child(2) {
+    font-family: Arial, sans-serif;
+}
+
+h3:nth-child(1) {
+    font-family: 'Mooli', sans-serif;
+}

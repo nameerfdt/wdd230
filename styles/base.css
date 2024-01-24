@@ -82,7 +82,8 @@
     content: "❌";
   }
 
-  .hamburgernav a:active::before {
+  /* .hamburgernav a:active::before */
+  .active::before {
     content:"📍";
   }
 

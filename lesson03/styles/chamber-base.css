@@ -65,8 +65,23 @@ td {
     background-color: #FFFFFF;
 }
 
+#wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#lrg-hm-wf {
+    grid-column: 1/2;
+    margin: 0;
+}
+
+#mob-hm-wf{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+
 img {
-    max-height: 60%;
+    max-height: 75%;
     max-width: 60%;
 }
 

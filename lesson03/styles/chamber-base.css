@@ -12,24 +12,21 @@ nav {
     padding: 10px;
     text-align: center;
   }
-
-  nav li {
+  nav {
     text-align: center;
     padding-top: 5px;
   }
-
-  nav li a {
+  
+  nav a {
     color: #3d6080;
     text-decoration: none;
+    justify-content: center;
   }
 
   .active::before {
     content:"📍";
   }
 
-  nav a {
-    justify-content: center;;
-  }
 
 main {
     margin-top: 10px;

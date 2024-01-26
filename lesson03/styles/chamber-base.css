@@ -11,22 +11,21 @@ nav {
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
-  }
-  nav {
-    text-align: center;
-    padding-top: 5px;
-  }
-  
+}
+
   nav a {
     color: #3d6080;
-    text-decoration: none;
     justify-content: center;
+    padding-top: 10px;
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
   .active::before {
     content:"📍";
   }
-
 
 main {
     margin-top: 10px;
@@ -35,6 +34,7 @@ main {
 header {
     text-align: center;
 }
+
 h1, h2{
     background-color: #3d6080;
     color: white;
@@ -95,16 +95,6 @@ td {
     display: grid;
     grid-template-columns: 1fr;
 }
-/* #lrg-hm-wf {
-    grid-column: 1/2;
-    margin: 0;
-}
-
-#mob-hm-wf{
-    grid-column: 2/3;
-    grid-row: 1/2;
-} */
-
 
 img {
     width: 95%;

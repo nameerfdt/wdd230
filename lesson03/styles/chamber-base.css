@@ -110,8 +110,7 @@ td {
 
 
 img {
-    max-height: 75%;
-    max-width: 60%;
+    width: 95%;
 }
 
 footer {
@@ -129,7 +128,6 @@ footer {
     }
     #lrg-hm-wf {
         grid-column: 1/2;
-        margin: 0;
     }
     
     #mob-hm-wf{

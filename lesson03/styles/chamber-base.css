@@ -65,6 +65,11 @@ td {
     background-color: #FFFFFF;
 }
 
+img {
+    max-height: 60%;
+    max-width: 60%;
+}
+
 footer {
     background: #3d6080;
     color: white;

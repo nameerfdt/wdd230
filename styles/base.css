@@ -94,13 +94,13 @@
 
   #main-grid {
     display: grid;
-    grid-template-columns: auto;
-    margin-top: -20px;
+    /* grid-template-columns: auto;*/
+    /* margin-top: -20px; */
   }
 
   main {
     background: white;
-    grid-column: 1 / 2;
+    /* grid-column: 1 / 2; */
   }
 
  h3 {

@@ -14,7 +14,11 @@
   #hero-img {
     display: block;
     margin-left: auto;
-    height: 200px;
+    /* height: 200px;
+    width: 175px; */
+    height: 185px;
+    width: 150px;
+
     image-rendering: auto;
   }
 

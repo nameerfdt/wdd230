@@ -1,4 +1,4 @@
-/* nav {
+nav {
     display: grid;
     grid-template-columns: 100px 1fr;
     margin: auto;
@@ -6,9 +6,7 @@
 
 .ham-nav {
     grid-column: 2/3;
-} */
-
-nav 
+}
 
 #hero-box {
     position: relative;
@@ -31,7 +29,7 @@ nav
 
 .title-h2 {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
@@ -42,6 +40,7 @@ main {
     gap: 10px;
     font-family: Arial, sans-serif;
 }
+
 #events, #weather, .chamber-member {
     border: 1px solid black;
     margin: 10px;

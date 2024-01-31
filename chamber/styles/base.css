@@ -1,3 +1,14 @@
+/* nav {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin: auto;
+}
+
+.ham-nav {
+    grid-column: 2/3;
+} */
+
+nav 
 
 #hero-box {
     position: relative;

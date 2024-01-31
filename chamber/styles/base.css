@@ -1,8 +1,10 @@
+
 #hero-box {
     position: relative;
     text-align: center;
     color: white;
     font-size: 1em;
+    font-family: mooli;
 }
 #hero-img {
     width: 100%;
@@ -18,7 +20,26 @@
 
 .title-h2 {
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+#events, #weather, .chamber-member {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    background-color: #3d6080;
+    color: white;
+    text-align: center;
 }

@@ -4,6 +4,7 @@
 
 body {
     margin: 0 auto;
+    background-color: var(--bkg-color);
 }
 
 .ham-nav {
@@ -21,11 +22,15 @@ body {
     text-align: center;
     padding: .5em;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
+    margin: auto;
 }
 
 a:hover {
     background-color: #F6F1D1;
+    color:#3d6080;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 main h2 {
@@ -78,6 +83,7 @@ main {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    background-color: #F6F1D1;
 }
 
 footer {

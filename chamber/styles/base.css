@@ -57,6 +57,16 @@ main h2 {
     height: 300px;
 }
 
+button {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #F6F1D1;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 .title-h1 {
     position: absolute;
     top: 40%;
@@ -74,14 +84,14 @@ main h2 {
 
 main {
     display: block;
-    gap: 10px;
+    gap: 5px;
     font-family: Arial, sans-serif;
 }
 
 #events, #weather, .chamber-member {
     border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 10px;
     background-color: #F6F1D1;
 }
@@ -92,3 +102,4 @@ footer {
     color: white;
     text-align: center;
 }
+

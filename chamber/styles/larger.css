@@ -6,8 +6,16 @@
 }
 
 .ham-nav a {
+    display: block;
+}
+
+.ham-nav a {
     flex: 1 1 100%;
     padding: 1em;
+}
+
+#hamburgermenu {
+    display: none;
 }
 
 #hero-img {

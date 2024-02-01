@@ -33,6 +33,36 @@ a:hover {
     border-radius: 10px;
 }
 
+#hamburgermenu {
+    /* display: block; */
+    position: absolute;
+    top: .1%;
+    right: 8%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color:#F6F1D1;
+}
+
+.ham-nav a {
+    display: none;
+}
+
+#hamburgermenu::before {
+	content: "≡";
+    background-color: #3d6080;
+}
+
+.show a {
+    display: block;
+}
+
+#hamburgermenu.show::before {
+	content: "X";
+    background-color: #3d6080;
+}
+
 main h2 {
     margin: 0;
     text-align: center;

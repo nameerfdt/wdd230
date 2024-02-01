@@ -1,11 +1,11 @@
 @media screen and (min-width: 900px) {
 
 nav {
-    justify-content: flex;
+    justify-content: flex-end;
     flex-direction: row;
 }
 
-.ham-nav a {
+nav a {
     flex: 1 1 100%;
 }
 

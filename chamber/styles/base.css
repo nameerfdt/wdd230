@@ -1,11 +1,20 @@
 nav {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #3d6080;
 }
 
-.ham-nav {
-    grid-column: 2/3;
+.ham-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.ham-nav a:hover {
+    background-color: red;
 }
 
 #hero-box {

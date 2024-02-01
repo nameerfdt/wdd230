@@ -1,20 +1,31 @@
-nav {
+body {
+    margin: 0 auto;
+}
+
+.ham-nav {
     display: flex;
     flex-direction: column;
     background-color: #3d6080;
+    margin: 0 auto;
+    padding: 0;
 }
 
-nav a {
+.ham-nav a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: .5em;
     text-decoration: none;
     font-size: 1em;
 }
 
 a:hover {
-    background-color: red;
+    background-color: #F6F1D1;
+    color: #3d6080;
+}
+
+.logo-img {
+    padding: 20px;
 }
 
 #hero-box {

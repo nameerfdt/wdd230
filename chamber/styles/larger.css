@@ -1,4 +1,4 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1050px) {
 
 .ham-nav {
     justify-content: flex-end;
@@ -25,12 +25,9 @@
     height: 450px;
 }
 
-.title-h1 {
+h1 {
     font-size: 3em;
-}
-
-.title-h2 {
-    font-size: 2em;
+    top: 50%;
 }
 
 main {

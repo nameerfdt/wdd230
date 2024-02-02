@@ -142,3 +142,7 @@ footer a {
     color:white;
     text-decoration: none;
 }
+
+address #quicklinks, #social {
+    padding-top: 10px;
+}

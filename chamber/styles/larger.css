@@ -3,6 +3,7 @@
 .ham-nav {
     justify-content: flex-end;
     flex-direction: row;
+    padding-right: 10px;
 }
 
 .ham-nav a {

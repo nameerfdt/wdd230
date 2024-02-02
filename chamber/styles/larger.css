@@ -37,13 +37,18 @@ main h2 {
     grid-column: 1/4;
 }
 
-#footer-grid {
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 address {
     grid-column: 1/2;
+}
+
+#quicklinks {
+    display: block;
+    align-items: center;
 }
 
 #copyright {

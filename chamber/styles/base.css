@@ -133,3 +133,12 @@ footer {
     text-align: center;
 }
 
+#quicklinks p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}

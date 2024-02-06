@@ -116,7 +116,7 @@ main h2 {
 
 #events, #weather, .chamber-member {
     border: 1px solid black;
-    margin: 5px;
+    margin: 20px;
     padding: 5px;
     border-radius: 10px;
     background-color: #F6F1D1;

@@ -43,8 +43,8 @@ body {
 }
 
 a:hover {
-    background-color: #F6F1D1;
-    color:#3d6080;
+    /* background-color: #F6F1D1;
+    color:#3d6080; */
     font-weight: bold;
     border-radius: 10px;
 }

@@ -51,12 +51,12 @@ a:hover {
 
 #hamburgermenu {
     position: absolute;
-    top: .1%;
-    right: 8%;
+    top: 1.25em;
+    right: 1em;
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
-    color:#F6F1D1;
+    color: white;
 }
 
 .ham-nav a {

@@ -88,6 +88,7 @@ a:hover {
     color: white;
     font-size: 1em;
     font-family: mooli;
+    margin: 2em;
 }
 #hero-img {
     width: 100%;
@@ -137,8 +138,11 @@ main h2 {
 footer {
     display: block;
     background-color: #3d6080;
+    border: 1px solid black;
     color: white;
     text-align: center;
+    padding-top: 10px;
+    margin: 2em;
 }
 
 #quicklinks p {

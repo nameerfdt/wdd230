@@ -126,7 +126,7 @@ main h2 {
     color: white;
 }
 
-main > div {
+section {
 /* #events, #weather, .chamber-member { */
     border: 1px solid black;
     margin: 20px;

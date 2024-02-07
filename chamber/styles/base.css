@@ -125,6 +125,7 @@ main h2 {
     /* background-color: var(--bkg-color); */
     color: white;
 }
+
 main > div {
 /* #events, #weather, .chamber-member { */
     border: 1px solid black;

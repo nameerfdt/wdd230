@@ -118,21 +118,21 @@ main {
     margin: 25px;
 }
 
+section { 
+/* #events, #weather, .chamber-member { */
+    border: 1px solid black;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F6F1D1;
+}
+
 main h2 {
     margin: 0;
     text-align: center;
     font-family: mooli;
     /* background-color: var(--bkg-color); */
     color: white;
-}
-
-section {
-/* #events, #weather, .chamber-member { */
-    border: 1px solid black;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #F6F1D1;
 }
 
 footer {

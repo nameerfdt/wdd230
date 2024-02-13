@@ -7,7 +7,16 @@
       background: #B0B493;
       padding: 10px;
       }
+    
+    .hero-label {
+      right: 25px;
+    }
 
+    .hero-label p {
+      font-size: 1.5em;
+      padding: 10px;
+      margin: 0;
+    }
 
     nav ul {
       display: flex;
@@ -41,6 +50,10 @@
     #main-grid {
       grid-template-columns: 1fr 1fr;
       }
+
+    h1 {
+      padding-left: 50px;
+    }
       
     h2, hr.line-break {
       grid-column: 1/3;

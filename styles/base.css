@@ -16,7 +16,7 @@
     align-items: center;
   }
 
-  #hero-img {
+  #profile {
     display: block;
     margin-left: auto;
     height: 185px;
@@ -24,15 +24,35 @@
     image-rendering: auto;
   }
 
+.hero {
+  position: relative;
+}
+
   .hero img {
     width: 100%;
     height: auto;
+    object-fit: cover;
   }
   
+.hero-label {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background:radial-gradient(#fff, #90b5dd4d
+  );
+  border: 1px solid black;
+}
+
+.hero-label p {
+  font-size: 1em;
+  padding: 5px;
+  margin: 0;
+}
+
   h1 {
     display: flex;
     text-align: center;
-    padding-left: 30px;
+    padding-left: 10px;
     font-family: Handlee, Arial, sans-serif;
     font-size: 50px;
   }

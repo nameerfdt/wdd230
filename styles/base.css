@@ -1,4 +1,9 @@
-
+  body {
+    max-width: 800px;
+    font-family: Roboto, Arial, sans-serif;
+    margin: auto;
+  }
+  
   header {
     background: #B0B493;
     padding: 2rem;
@@ -14,18 +19,9 @@
   #hero-img {
     display: block;
     margin-left: auto;
-    /* height: 200px;
-    width: 175px; */
     height: 185px;
     width: 150px;
-
     image-rendering: auto;
-  }
-
-  body {
-    max-width: 800px;
-    font-family: Roboto, Arial, sans-serif;
-    margin: auto;
   }
   
   h1 {

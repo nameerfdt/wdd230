@@ -6,8 +6,7 @@
   
   header {
     background: #B0B493;
-    padding: 2rem;
-    margin: 0 auto;
+    padding: 2em;
   }
 
   #header-grid {
@@ -16,12 +15,9 @@
     align-items: center;
   }
 
-  #profile {
-    display: block;
-    margin-left: auto;
-    height: 185px;
-    width: 150px;
-    image-rendering: auto;
+ .profile img {
+    width: 100%;
+    height: auto;
   }
 
 .hero {
@@ -54,14 +50,13 @@
     text-align: center;
     padding-left: 10px;
     font-family: Handlee, Arial, sans-serif;
-    font-size: 50px;
+    margin: 0 auto;
   }
 
   nav {
     background: #000000;
     text-align: center;
     margin: auto;
-    /* margin-bottom: 10px; */
   }
 
   #hamburgermenu {
@@ -87,7 +82,6 @@
   #hamburgernav a {
     display: block;
     padding: 0.75rem;
-    /* text-align: left; */
     text-decoration: none;
     font-weight: 700;
     transition: 0.5s;
@@ -107,7 +101,6 @@
     content: "❌";
   }
 
-  /* .hamburgernav a:active::before */
   .active::before {
     content:"📍";
   }
@@ -117,15 +110,8 @@
     color: white;
   }
 
-  #main-grid {
-    display: grid;
-    /* grid-template-columns: auto;*/
-    /* margin-top: -20px; */
-  }
-
   main {
     background: white;
-    /* grid-column: 1 / 2; */
   }
 
  h3 {
@@ -135,7 +121,6 @@
   }
 
   h2 {
-    /* margin-bottom: 0; */
     margin: 15px;
     text-align: center;
   }

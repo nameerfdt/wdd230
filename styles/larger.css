@@ -48,11 +48,12 @@
     }
 
     #main-grid {
+      display: grid;
       grid-template-columns: 1fr 1fr;
       }
 
     h1 {
-      padding-left: 50px;
+      font-size: 70px;
     }
       
     h2, hr.line-break {

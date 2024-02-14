@@ -21,9 +21,10 @@
 
 <body>
     <header id="header-grid">
-        <div>
-            <img id="profile" src="images/myprofileimage-compressed.webp" alt="This is a photo of Tracy Freeman.">
-        </div>
+        <picture class="profile">
+            <source media="(min-width: 400px)" srcset="images/myprofile-150x185.webp">
+            <img src="images/myprofile-220x271.webp" alt="This is a photo of Tracy Freeman." width="220" height="271">
+        </picture>
         <h1 class="title">Tracy Freeman</h1>
     </header>
     <a id="hamburgermenu" href="#"></a>

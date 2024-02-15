@@ -26,6 +26,18 @@
     /* height: 600px; */
 }
 
+#small-label, #medium-label {
+    display: none;
+}
+
+#large-label {
+    position: absolute;
+    top: 5px;
+    left: 225px;
+    color: black;
+    font-size: 3em;
+}
+
 h1 {
     font-size: 3em;
     top: 50%;

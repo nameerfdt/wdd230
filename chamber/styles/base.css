@@ -94,6 +94,14 @@ a:hover {
     height: auto;
 }
 
+#small-label {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    color: black;
+    font-size: 2em;
+}
+
 button {
     position: absolute;
     top: 5%;

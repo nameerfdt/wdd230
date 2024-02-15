@@ -37,11 +37,13 @@ body {
 }
 
 .ham-nav a {
+    display: block;
     color: white;
     text-align: center;
-    padding: .5em;
     text-decoration: none;
     margin: auto;
+    padding: .5em;
+    font-size: 1em;
 }
 
 a:hover {

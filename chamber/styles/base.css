@@ -101,6 +101,9 @@ a:hover {
     color: black;
     font-size: 2em;
 }
+#medium-label, #large-label {
+    display: none;
+}
 
 button {
     position: absolute;

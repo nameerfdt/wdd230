@@ -12,16 +12,17 @@
     h1 {
         font-size: 2em;
     }
-    #small-label {
-        display: none;
-    }
 
     #medium-label {
+        display: block;
         position: absolute;
         top: 5px;
         left: 150px;
         color: black;
         font-size: 3em;
+    }
+    #small-label, #large-label {
+        display: none;
     }
 
     }

@@ -22,12 +22,13 @@
 
 .hero {
   position: relative;
+  margin: 0 auto;
 }
 
-  .hero img {
-    width: 100%;
-    height: auto;
-    /* object-fit: cover; */
+.hero img {
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
   }
   
 .hero-label {
@@ -90,6 +91,10 @@
 
   .show li {
     display: block;
+  }
+
+  ul {
+    margin: 0;
   }
 
   ul.hamburgernav.show {

@@ -177,6 +177,10 @@ footer a {
     text-decoration: none;
 }
 
-address #quicklinks, #social {
+address #quicklinks {
     padding-top: 10px;
+}
+
+#social img{
+    padding: 10px;
 }

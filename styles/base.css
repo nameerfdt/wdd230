@@ -162,6 +162,21 @@
     padding-bottom: 10px;
   }
   
+  .info, .pagevisits {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #weather img {
+    margin-right: 10px;
+  }
+
   .googlemaps {
     position: relative;
     padding-bottom: 75%;

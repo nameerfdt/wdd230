@@ -29,6 +29,10 @@ body {
     padding: 20px 30px;
 }
 
+.active::before {
+    content:"📍";
+  }
+
 .ham-nav {
     display: flex;
     flex-direction: column;

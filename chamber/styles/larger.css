@@ -43,7 +43,7 @@ h1 {
     top: 50%;
 }
 
-main {
+#home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* margin: 10px; */
@@ -89,13 +89,7 @@ address {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    border: 1px solid black;
     align-items: center;
-}
-
-#prison {
-    grid-column: 2/3;
-    grid-row: 2/3;
 }
 
 }

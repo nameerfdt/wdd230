@@ -89,24 +89,20 @@ address {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5em;
-    align-items: center;
+    /* align-items: center; */
     margin: auto;
     font-size: 1em;
-}
-
-div #discover-images {
-    grid-column: 2/3;
 }
 
 img {
     display: block;
     margin: auto;
 }
-#discover-grid div p {
+/* #discover-grid div p {
     color: white;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 }

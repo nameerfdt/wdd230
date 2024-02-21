@@ -88,8 +88,21 @@ address {
 #discover-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 1.5em;
     align-items: center;
+    margin: auto;
+    font-size: 1em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+#discover-grid div p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 }

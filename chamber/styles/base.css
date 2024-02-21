@@ -131,6 +131,16 @@ h1 {
     font-size: 1.5em;
 }
 
+main .child-pages {
+    display: block;
+    position: static;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    transform: none;
+    margin-top: 0;
+}
+
 main {
     display: block;
     font-family: Arial, sans-serif;

@@ -191,6 +191,9 @@ address #quicklinks {
     padding: 10px;
 }
 
+#discover-grid {
+    display: block;
+}
 
 #demographics {
     text-align: center;

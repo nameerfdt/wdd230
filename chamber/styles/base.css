@@ -190,10 +190,13 @@ address #quicklinks {
 #social img{
     padding: 10px;
 }
-
-#discover-grid {
-    display: block;
+#discover-grid img {
+    width: 100%;
+    height: auto;
 }
+/* #discover-grid {
+    display: block;
+} */
 
 #demographics {
     text-align: center;

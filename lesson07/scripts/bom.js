@@ -62,11 +62,11 @@ function displayList(item) {
         });
 };
 
-// Define the setChapterList function to set the localStorage item that you have already named. Use JSON.stringify() to stringify the array.
+// Define the setChapterList function to set the localStorage item that you have already named. Use JSON.stringify() to stringify the array. This is the KEY.
 function setChapterList() {
     localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
 }
-// Define the getChapterList function to get the localStorage item. No parameter is needed. Since this function returns to an awaiting array, we will need to use JSON.parse on the string.
+// Define the getChapterList function to get the localStorage item. No parameter is needed. Since this function returns to an awaiting array, we will need to use JSON.parse on the string. 
 function getChapterList() {
     return JSON.parse(localStorage.getItem('myFavBOMList'));
 }

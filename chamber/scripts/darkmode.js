@@ -8,6 +8,7 @@ const spot2 = document.querySelector("#spotlight2");
 const spot3 = document.querySelector("#spotlight3");
 
 
+
 modeButton.addEventListener("click", () => {
     body.classList.toggle('darkmode');
     main.classList.toggle('darkmode');

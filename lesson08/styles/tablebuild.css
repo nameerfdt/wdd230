@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: .85rem;
+}
+
+tr:first-child th, th:first-child {
+	background-color: red;
+	color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid grey;
+    font-weight: bold;
+}
+
+th {
+	background-color: blue;
+    color: white;
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(0, 0, 255, 0.14);
+}

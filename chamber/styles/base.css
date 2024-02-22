@@ -224,6 +224,6 @@ address #quicklinks {
     transform: scale(1.1);
 }
 
-#demographics {
-    text-align: center;
+ul li {
+    list-style-type: none;
 }

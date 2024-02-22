@@ -17,7 +17,7 @@ caption {
   padding: 10px;
   caption-side: bottom;
 	color: black;
-	font-size: .85rem;
+	font-size: 1em;
 }
 
 tr:first-child th, th:first-child {
@@ -34,11 +34,12 @@ th, td {
 th {
 	background-color: blue;
     color: white;
-	font-size: larger;
+	font-size: 2em;
 }
 
 td {
 	text-align: center;
+    font-size: 2em;
 }
 
 tr:nth-child(even) {

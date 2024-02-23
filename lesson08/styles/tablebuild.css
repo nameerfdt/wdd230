@@ -10,6 +10,7 @@ table {
 	margin: 10px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
+	/* the borders between adjacent cells merge into single border */
 	border-collapse: collapse;
 }
 
@@ -25,9 +26,12 @@ tr:first-child th, th:first-child {
 	color: white;
 }
 
+td {
+	border: 1px solid lightgray; 
+}
+
 th, td {
 	padding: 7px 15px;
-	border: 1px solid grey;
     font-weight: bold;
 }
 
@@ -43,5 +47,5 @@ td {
 }
 
 tr:nth-child(even) {
-	background-color: rgba(0, 0, 255, 0.14);
+	background-color: #e9142c26;
 }

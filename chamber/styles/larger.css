@@ -94,6 +94,10 @@ address {
     font-size: 1em;
 }
 
+#section-container {
+    padding-left: 2.5em;
+}
+
 img {
     display: block;
     margin: auto;

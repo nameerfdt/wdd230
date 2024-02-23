@@ -148,7 +148,6 @@ main {
 }
 
 section { 
-/* #events, #weather, .chamber-member { */
     border: 1px solid black;
     margin: 20px;
     padding: 15px;
@@ -202,7 +201,7 @@ address #quicklinks {
 }
 
 #discover-grid img {
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
@@ -224,6 +223,13 @@ address #quicklinks {
     transform: scale(1.1);
 }
 
-ul li {
+li {
+    margin: 0;
     list-style-type: none;
+    padding-bottom: 10px;
+}
+
+p::before, li::before {
+    content: attr(data-label);
+    font-weight: bold;
 }

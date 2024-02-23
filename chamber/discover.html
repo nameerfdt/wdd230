@@ -49,9 +49,9 @@
         <h1 class="child-pages">Prison Blues Chamber of Commerce: Discover</h1>
         <hr>
         <div id="discover-grid">
-            <div id="section-grid">
+            <div id="section-container">
                 <section id="visited">
-                    <p>Last Visted: <span class="visitsDisplay"></span></p>
+                    <p><strong>Last Visted:</strong> <span class="visitsDisplay"></span></p>
                 </section>
                 <section id="history">
                     <h3>History</h3>
@@ -85,19 +85,22 @@
                 <section id="demographics">
                     <h3>Demographics</h3>
                     <ul>
-                        <li>Population: 85,498</li>
-                        <li>Total Households: 75,650</li>
-                        <li>Median Household Income: $119,824</li>
-                        <li>Folsom State Prison: 2,742</li>
-                        <li>California State Prison, Sacramento: 1,868</li>
+                        <li data-label="Population">: 85,498</li>
+                        <li data-label="Total Households">: 75,650</li>
+                        <li data-label="Median Household Income">: $119,824</li>
+                        <li data-label="Folsom State Prison">: 2,742</li>
+                        <li data-label="California State Prison, Sacramento">: 1,868</li>
                     </ul>
-                    <p>Age Distribution: Folsom has a relatively young population, with a significant portion of
+                    <p data-label="Age Distribution">: Folsom has a relatively young population, with a significant
+                        portion of
                         residents falling into the age range of 25 to 44 years old. However, the city also has a sizable
                         population of seniors aged 65 and older.</p>
-                    <p>Ethnicity and Race: Folsom is a diverse community with residents from various ethnic and racial
+                    <p data-label="Ethnicity and Race">: Folsom is a diverse community with residents from various
+                        ethnic and racial
                         backgrounds. The population includes individuals of White, Hispanic or Latino, Asian, African
                         American, and other ethnicities.</p>
-                    <p>Education: Folsom is known for its highly educated population. Many residents hold bachelor's,
+                    <p data-label="Education">: Folsom is known for its highly educated population. Many residents
+                        hold bachelor's,
                         master's, and doctoral degrees. The city is home to well-regarded schools and educational
                         institutions.</p>
                     <p>Folsom is known for its excellent quality of life, with access to outdoor recreation, parks,
@@ -111,19 +114,23 @@
                     <p>Folsom is Distinctive by Nature. Enjoy more than 50 miles of paved recreational trails, Folsom
                         Lake, Lake Natoma, and the serene American River. Mountatin biking, hiking, and paddleboarding
                         are just a few of the popular activities of Folsom.</p>
-                    <p>Folsom Lake State Recreation Area: Folsom Lake State Recreation Area is a popular destination for
+                    <p data-label="Folsom Lake State Recreation Area">: Folsom Lake State Recreation Area is a
+                        popular destination for
                         outdoor enthusiasts. Visitors can enjoy boating, fishing, swimming, hiking, picnicking, and
                         camping along the shores of Folsom Lake. The park also features scenic trails for hiking,
                         mountain biking, and horseback riding.</p>
-                    <p>American River Parkway: The American River Parkway runs through Folsom and offers opportunities
+                    <p data-label="American River Parkway">: The American River Parkway runs through Folsom and
+                        offers opportunities
                         for walking, jogging, cycling, and horseback riding along the scenic American River. The parkway
                         features paved trails, natural areas, and picnic areas with beautiful views of the river and
                         surrounding landscape.</p>
-                    <p>Historic Old Folsom: Historic Old Folsom is a charming district with historic buildings, shops,
+                    <p data-label="Historic Old Folsom">: Historic Old Folsom is a charming district with historic
+                        buildings, shops,
                         restaurants, and galleries. Visitors can stroll along Sutter Street, explore the Folsom History
                         Museum, visit the Railroad Block, or take a guided walking tour to learn about the city's
                         history.</p>
-                    <p>Golf Courses: Folsom has several golf courses where enthusiasts can enjoy a round of golf
+                    <p data-label="Golf Courses">: Folsom has several golf courses where enthusiasts can enjoy a
+                        round of golf
                         surrounded by scenic landscapes. Courses such as Empire Ranch Golf Club and Folsom Lake Golf
                         Course offer challenging holes and beautiful views of the surrounding area.</p>
                     <ul>
@@ -144,12 +151,30 @@
 
                 <section id="arts-culture">
                     <h3>Arts and Culture</h3>
-                    <p>The Folson community participates in many arts and cultural programs and events. The Harris
+                    <p>The Folsom community participates in many arts and cultural programs and events. The Harris
                         Center
                         provides enrichment through a beautiful and state-of-the-art 80,000 square foot reginal arts
                         center.
                         Programs are avialable at the Folsom Art Center and The Gallery at 48 Natoma. You'll also notice
                         public art all around the city.</p>
+                    <p data-label="Folsom History Museum">: Located in the heart of Historic Folsom, this museum
+                        showcases exhibits on
+                        the history of Folsom, including its Gold Rush era, Native American heritage, and the famous
+                        Folsom Prison.
+                    </p>
+                    <p data-label="Folsom Prison Museum">: Situated adjacent to the Folsom State Prison, this museum
+                        provides insight
+                        into the history of the prison, including artifacts and exhibits related to its notorious
+                        inmates and notable events.</p>
+                    <p data-label="Sutter Street">: Folsom's historic district, Sutter Street, offers a charming
+                        blend of boutique
+                        shops, restaurants, art galleries, and theaters housed in historic buildings dating back to the
+                        Gold Rush era.</p>
+                    <p data-label="Folsom Arts Association">: This organization promotes the visual arts in Folsom
+                        through
+                        exhibitions, workshops, and community events, fostering creativity and artistic expression among
+                        local artists and residents.</p>
+                    <p></p>
                     <ul>
                         <li>
                             <a href="https://www.harriscenter.net" target="_blank">Harris Center</a>
@@ -180,18 +205,41 @@
                     <p>Take advantage of Folsom's relatively close proximity to various California attractions for a
                         quick
                         day trip and weekend get away.</p>
-                    <ul>
-                        <li>Lake Tahoe: 75 miles to enjoy hiking, camping, snow skiing and various other outdoor
-                            activities.
-                        </li>
-                        <li>Yosemite National Park: 150 miles southeast featuring granite cliffs, waterfalls, giant
-                            sequoia
-                            trees </li>
-                        <li>Lassen Volcanic National Park: 160 miles northeast featuring steam vents, mud pots, hot
-                            springs,
-                            and a unique volcanic landscape.</li>
-                        <li> San Francisco: 2 to 2.5 hours to scenic views of the Pacific Ocean, Golden Gate Bridge,
-                            Alcatraz Island, Fisherman's Wharf, and numerous other points of interest. </li>
+                    <p data-label="Lake Tahoe">: 75 miles northeast. Lake Tahoe is renowned for its breathtaking
+                        natural beauty,
+                        with crystal-clear blue waters surrounded by majestic snow-capped peaks and lush forests.
+                        The scenic vistas attract visitors year-round for outdoor recreation and relaxation.The lake
+                        offers a plethora of outdoor activities, including boating, kayaking, paddleboarding,
+                        fishing, and swimming in the summer months. In winter, the surrounding ski resorts,
+                        including Heavenly, Squaw Valley, and Northstar, draw crowds for skiing, snowboarding, and
+                        other snow sports.
+                    </p>
+                    <p data-label="Yosemite National Park">: 150 miles southeast.Yosemite is renowned for its
+                        stunning natural
+                        beauty, characterized by towering granite cliffs, dramatic waterfalls, pristine alpine
+                        meadows, and ancient sequoia groves. The park's diverse landscapes offer breathtaking vistas
+                        around every corner. Yosemite features several iconic landmarks, including El Capitan, a
+                        massive granite monolith popular with rock climbers; Half Dome, a distinctive granite dome
+                        with a sheer face rising over the valley; and Yosemite Falls, one of the tallest waterfalls
+                        in North America.</p>
+                    <p data-label="Lassen Volcanic National Park">: 160 miles northeast. Lassen Volcanic National
+                        Park is home to
+                        a wide range of volcanic features, including lava beds, cinder cones, hot springs,
+                        fumaroles, and mud pots. Visitors can explore these geological wonders and learn about the
+                        park's volcanic history. The park's namesake, Lassen Peak, is the largest plug dome volcano
+                        in the world and one of the most prominent features within the park. Visitors can hike to
+                        the summit of Lassen Peak for panoramic views of the surrounding landscape, including nearby
+                        volcanic peaks and alpine lakes.</p>
+                    <p data-label="San Francisco">: 2 to 2.5 hours west. San Francisco, California, is a vibrant and
+                        diverse
+                        city known for its iconic landmarks, rich history, cultural attractions, and stunning
+                        natural beauty. One of the most recognizable symbols of San Francisco, the Golden Gate
+                        Bridge spans the Golden Gate Strait, connecting the city to Marin County. Visitors can walk
+                        or bike across the bridge for breathtaking views of the San Francisco Bay and the city
+                        skyline. San Francisco's iconic cable cars are both a mode of transportation and a tourist
+                        attraction. Visitors can ride the historic cable cars along three routes, enjoying scenic
+                        views of the city's steep hills and landmarks such as Lombard Street, known as the
+                        "Crookedest Street in the World."</p>
                     </ul>
                 </section>
             </div>

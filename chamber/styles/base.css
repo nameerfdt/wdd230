@@ -200,6 +200,10 @@ address #quicklinks {
     padding: 10px;
 }
 
+#visited {
+    text-align: center;
+}
+
 #discover-grid h2 {
     color: black;
     font-size: 1.5em;

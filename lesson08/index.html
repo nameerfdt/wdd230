@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title</title>
-    <meta name="description" content="Page Description">
-    <meta name="author" content="Author">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- This start file was build by Paul Cheney  -->
+    <title>HTML5 Start Site by Paul Cheney</title>
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Fill Me In">
 
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-
+        <h1>Course Proposal</h1>
+        <h2>Designing Web Forms</h2>
     </header>
+
     <nav class="clearfix">
         <ul>
             <li><a href="#">About</a></li>
@@ -25,6 +28,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
     <main>
         <h1>Course Proposal Application</h1>
         <form method="get" action="thanks.html">
@@ -37,6 +41,7 @@
                         required></label>
                 <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
             </fieldset>
+
             <fieldset>
                 <legend>Course Information</legend>
                 <div>Audience</div>
@@ -49,7 +54,6 @@
                 <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
                 <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
                 <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-
             </fieldset>
 
             <fieldset>
@@ -66,32 +70,20 @@
                         <option value="info">Information Technology</option>
                         <option value="manufacturing">Manufacturing</option>
                         <option value="Software">Software Development</option>
-
-
-
                     </select>
                 </label>
-
                 <label class="top">How Many Authors <input type="number" name="authors"></label>
             </fieldset>
 
             <input type="submit" value="Propose My Course" class="submitBtn">
-
-
-
         </form>
 
-
-
     </main>
-    <footer>
-        <p>&copy; <span id="currentyear"></span> <br>Author<br> United States of America</p>
 
-        <div class="lastmodification">
-            <p>Last modification: <span id="lastmodification"></span> </p>
-        </div>
+    <footer>
+        &copy; &bull; Paul Cheney &bull; 123-555-6789
     </footer>
-    <script src="scripts/getdates.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>

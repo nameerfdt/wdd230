@@ -63,7 +63,7 @@ main {
 /* this is the lines around each fieldset */
 form fieldset {
     margin: 2rem 0;
-    border: 1 px solid #445ba9;
+    border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
 }
@@ -76,7 +76,7 @@ form legend {
 
 form label.top, form div{
     display: block;
-    padding-top: 1 rem;
+    padding-top: 1rem;
     color: #9c2c13; 
     font-size: .8rem;
 }
@@ -86,8 +86,8 @@ form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px, #999;
-    border-radius: 4 px;
+    border: solid 1px #999;
+    border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;

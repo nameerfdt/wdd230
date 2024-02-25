@@ -42,9 +42,9 @@
     </nav>
 
     <main>
-        <div id="pwdmessage"></div>
         <form method="get" action="record.html">
-            <h4>*Required Text</h4>
+            <h2 id="form-header">Account Request Form</h2>
+            <h4>* Required Field</h4>
             <label for="username">Username*
                 <input type="text" id="username" name="username" required></label>
 
@@ -54,10 +54,11 @@
 
             <label for="pwd2">Confirm Password*
                 <input type="password" id="pwd2" name="pwd2" required></label>
+            <div id="pwdmessage"></div>
 
-            <label for="email">Email*
-                <input type="email" id="email" name="email" required placeholder="You must use your byui.edu email."
-                    pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            <label for="email">Email <input type="email" id="email" name="email"
+                    placeholder="You must use your byui.edu email." pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                    title="Please enter a valid email address." required></label>
 
             <label for="range">Page Rating:</label>
             <div id="rangevalue">0</div>

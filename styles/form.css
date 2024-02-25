@@ -5,28 +5,42 @@ form  {
     border: 1px solid black;
 }
 
-form label.top {
+h4 {
+    background-color: white;
+    text-align: left;
+}
+
+form label {
     display: block;
     padding-top: 3em;
-    color: pink;
     font-size: 2em;
 }
 
-form label.top, input {
+form label, input {
     display: block;
     font-size: 1rem;
     padding: .75rem;
     border-radius: 5px;
-    width: 60%;
+    width: 75%;
 }
 
 form input.submitBtn {  
     border: none;
     background-color: linen;
     border-radius: 5px;
-    width: 60%;
+    margin: .75rem;
+    width: 75%;
 }
 
-form label.top input:required {
+form label input:required {
     border-left: 6px solid red;
+}
+
+form div#rangevalue {
+    padding-left: .75rem;
+}
+
+input#range {
+    margin-left: .75rem;
+    padding: 0;
 }

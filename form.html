@@ -44,21 +44,22 @@
     <main>
         <div id="pwdmessage"></div>
         <form method="get" action="record.html">
-            <label classs="top" for="username">Username*
+            <h4>*Required Text</h4>
+            <label for="username">Username*
                 <input type="text" id="username" name="username" required></label>
 
-            <label classs="top" for="pwd">Password*
+            <label for="pwd">Password*
                 <input type="password" id="pwd" name="pwd" required pattern="[A-za-z0-9]{8,}"
                     placeholder="Must be min (8) characters long and only alpha-numeric"></label>
 
-            <label classs="top" for="pwd2">Confirm Password*
+            <label for="pwd2">Confirm Password*
                 <input type="password" id="pwd2" name="pwd2" required></label>
 
-            <label classs="top" for="email">Email*
+            <label for="email">Email*
                 <input type="email" id="email" name="email" required placeholder="You must use your byui.edu email."
                     pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
 
-            <label classs="top" for="range">Page Rating:</label>
+            <label for="range">Page Rating:</label>
             <div id="rangevalue">0</div>
             <input id="range" <input type="range" id="range" name="range" min="1" max="10" value="1" step="1">
 
@@ -79,7 +80,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
-    <script src="scripts/pagevisits.js"></script>
     <script src="scripts/form.js"></script>
 </body>
 

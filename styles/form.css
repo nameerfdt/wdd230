@@ -1,0 +1,32 @@
+form  {
+    display: block;
+    padding: 1em;
+    margin: 2em 0; 
+    border: 1px solid black;
+}
+
+form label.top {
+    display: block;
+    padding-top: 3em;
+    color: pink;
+    font-size: 2em;
+}
+
+form label.top, input {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 5px;
+    width: 60%;
+}
+
+form input.submitBtn {  
+    border: none;
+    background-color: linen;
+    border-radius: 5px;
+    width: 60%;
+}
+
+form label.top input:required {
+    border-left: 6px solid red;
+}

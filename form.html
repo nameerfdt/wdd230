@@ -44,27 +44,29 @@
     <main>
         <div id="pwdmessage"></div>
         <form method="get" action="record.html">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" required><br>
+            <label classs="top" for="username">Username*
+                <input type="text" id="username" name="username" required></label>
 
-            <label for="pwd">Password:</label><br>
-            <input type="password" id="pwd" name="pwd" required pattern="[A-za-z0-9]{8,}"
-                placeholder="Must be at least eight (8) characters long and can only be alpha-numeric"><br>
+            <label classs="top" for="pwd">Password*
+                <input type="password" id="pwd" name="pwd" required pattern="[A-za-z0-9]{8,}"
+                    placeholder="Must be min (8) characters long and only alpha-numeric"></label>
 
-            <label for="pwd2">Confirm Password:</label><br>
-            <input type="password" id="pwd2" name="pwd2" required><br>
+            <label classs="top" for="pwd2">Confirm Password*
+                <input type="password" id="pwd2" name="pwd2" required></label>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required placeholder="You must use your byui.edu email."
-                pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"><br>
+            <label classs="top" for="email">Email*
+                <input type="email" id="email" name="email" required placeholder="You must use your byui.edu email."
+                    pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
 
-            <label for="range">Page Rating:</label><br>
+            <label classs="top" for="range">Page Rating:</label>
             <div id="rangevalue">0</div>
-            <input id="range" <input type="range" id="range" name="range" min="1" max="10" value="1" step="1"><br>
+            <input id="range" <input type="range" id="range" name="range" min="1" max="10" value="1" step="1">
+
+            <input type="submit" value="Create Account" class="submitBtn">
         </form>
 
 
-        <input type="submit" value="Create Account" class="submitBtn">
+
 
     </main>
 

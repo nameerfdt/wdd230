@@ -44,3 +44,7 @@ input#range {
     margin-left: .75rem;
     padding: 0;
 }
+
+div#pwdmessage {
+    font-size: 2em;
+}

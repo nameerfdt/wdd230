@@ -73,21 +73,23 @@
         <div class="form-grid">
             <form method="get" action="thankyou.html">
                 <fieldset>
+                    <legend>Applicant Information</legend>
+
                     <label class="info" for="fname">First Name*
                         <input type="text" id="fname" name="fname" required></label>
 
                     <label class="info" for="lname">Last Name*
                         <input type="text" id="lname" name="lname" required></label>
 
-                    <label class="info" for="jobTitle">Job Title or Position*
+                    <label class="info" for="title">Job Title or Position*
                         <input type="text" id="title" name="title" pattern="^[A-Za-z\s\-]{7,}$" required></label>
 
                     <label class="info" for="email">Email*<input type="email" id="email" name="email"
                             placeholder="anyone@domain.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
                             title="Please enter a valid email address." required></label>
 
-                    <label class="info" for="mobilePhone">Mobile Phone Number*
-                        <input type="tel" id="title" name="title" required></label>
+                    <label class="info" for="mobile">Mobile Phone Number*
+                        <input type="tel" id="mobile" name="mobile" required></label>
 
                     <label class="info" for="orgName">Business or Organization Name*
                         <input type="text" id="orgName" name="orgName" required></label>
@@ -95,21 +97,27 @@
 
                 <fieldset>
                     <legend>Membership Level
-                        <label for="html"></label><br>
                     </legend>
 
-                    <input type="radio" id="np" name="np" value="NP"><label for="html"> Non-Profit</label><br>
+                    <label class="sds"><input type="radio" name="audience" value="Gold"> Gold
+                    </label>
 
-                    <input type="radio" id="bronze" name="bronze" value="Bronze"><label for="html"> Bronze</label><br>
+                    <label class="sds"><input type="radio" name="audience" value="Silver"> Silver
+                    </label>
 
-                    <input type="radio" id="silver" name="silver" value="Silver"><label for="html"> Silver</label><br>
+                    <label class="sds"><input type="radio" name="audience" value="Bronze"> Bronze
+                    </label>
 
-                    <input type="radio" id="gold" name="gold" value="Gold"><label for="html"> Gold</label><br>
+                    <label class="sds"><input type="radio" name="audience" value="Non-Profit"> Non-Profit
+                    </label>
+
                 </fieldset>
 
                 <fieldset>
-                    <textarea name="description" rows="auto"
-                        cols="auto">Enter a description of your business or organization.</textarea>
+                    <legend>Business Description
+                    </legend>
+                    <textarea id="description"
+                        name="description">Enter a description of your business or organization.</textarea>
                 </fieldset>
             </form>
 
@@ -219,8 +227,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
-
 </body>
 
 </html>

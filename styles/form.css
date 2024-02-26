@@ -15,15 +15,15 @@ h4 {
     padding-left: 1em;
     margin: 0;
 }
-form label {
+/* form label {
     display: block;
     padding-top: 3em;
     font-size: 2em;
-}
+} */
 
 form label, input {
     display: block;
-    font-size: 1rem;
+    font-size: 1em;
     padding: .75rem;
     border-radius: 5px;
     width: 75%;

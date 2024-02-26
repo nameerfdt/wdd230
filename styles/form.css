@@ -1,8 +1,14 @@
+:root {
+    --color-black: black;
+    --block-display: block;
+    --radius: 5px;
+}
+
 form  {
-    display: block;
+    display: var(--block-display);
     padding: 1em;
     /* margin: 2em 0;  */
-    border: 1px solid black;
+    border: 1px solid var(--color-black);
     /* background-color: #B0B493; */
 }
 
@@ -22,18 +28,18 @@ h4 {
 } */
 
 form label, input {
-    display: block;
+    display: var(--block-display);
     font-size: 1em;
     padding: .75rem;
-    border-radius: 5px;
+    border-radius: var(--radius);
     width: 75%;
-    border-color: black;
+    border-color: var(--color-black);
 }
 
 form input.submitBtn {  
     border: none;
     background-color: linen;
-    border-radius: 5px;
+    border-radius: var(--radius);
     margin: .75rem;
     width: 75%;
 }

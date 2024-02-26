@@ -242,3 +242,8 @@ p::before, li::before {
     content: attr(data-label);
     font-weight: bold;
 }
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

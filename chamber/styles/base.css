@@ -198,6 +198,7 @@ address #quicklinks {
 
 #social img{
     padding: 10px;
+    display: inline;
 }
 
 #visited {

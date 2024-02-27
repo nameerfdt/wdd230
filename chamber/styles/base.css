@@ -269,6 +269,22 @@ form label.info, label.sbs {
     color: white;
 }
 
+textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    padding-left: 5px;
+    padding-right: 0;
+    max-width: 50rem;
+    font-size: 1.5em;
+    
+} 
+
+/* fieldset #description input {
+    width: 90%; 
+    height: auto;
+} */
+
 form label.info input {
     display: block;
     padding: .5em;
@@ -277,16 +293,5 @@ form label.info input {
     max-width: 50rem;
 } 
 
-#description {
-    width: 95%;
-    height: auto;
-}
-
-textarea {
-    width: 100%;
-    min-height: 50px;
-    resize: none;
-    overflow: hidden;
-}
 
 

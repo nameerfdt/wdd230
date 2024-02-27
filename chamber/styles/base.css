@@ -293,5 +293,14 @@ form label.info input {
     max-width: 50rem;
 } 
 
+form input.submitBtn {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: .25em;
+    margin-top: .5em;
+    width: 50%;
+}
 
 

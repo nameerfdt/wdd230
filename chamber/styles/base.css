@@ -247,44 +247,46 @@ p::before, li::before {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-fieldset {
+/* this is the groups of info */
+form fieldset {
     border-radius: 10px;
+    padding-bottom: 1em;
 }
 
+/* this is the fieldset titles */
 legend {
-    padding: 1em;
+    padding: .5em;
     margin: 0;
     color: white;
     font-size: 1.5em;
 }
 
-form label,input {
+/* this if first fieldset */
+form label.info, label.sbs {
     display: block;
-    font-size: 1em;
-    padding: .5em;
-    border-radius: 10px; 
-    border-color:black;
-    color: black;
-    width: 95%;
-}
-
-label.info {
+    padding-top: 1em;
     font-size: 1.5em;
-}
-
-fieldset label.info {
-    display: block;
     color: white;
 }
 
-input {
+form label.info input {
+    display: block;
     padding: .5em;
-}
+    border: 1px solid black;
+    width: 95%;
+    max-width: 50rem;
+} 
 
 #description {
     width: 95%;
     height: auto;
+}
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    resize: none;
+    overflow: hidden;
 }
 
 

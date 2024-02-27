@@ -304,4 +304,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-
+ul.benefits li {
+    list-style-type: disc ;
+    padding-bottom: 5px;
+}

@@ -11,12 +11,14 @@ function checkSame() {
         //  display message
         pwdmessage.textContent = "Password does not match previously entered password.";
         pwdmessage.style.visibility = "show";
-        // color the pwd2 backgroud pink
+        // color the pwd2 backgroud
 		pwd2.style.backgroundColor = "linen";
+        // empty out the first pwd field
+        pwd.value = "";
         // empty out the pwd2 field
 		pwd2.value = "";
-        // focus user back to pwd2 field
-		pwd2.focus();
+        // focus user back to first pwd field
+		pwd.focus();
 	} else {
         // else don't display message and color background and text
 		pwdmessage.style.display = "none";

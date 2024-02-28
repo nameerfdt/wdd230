@@ -70,3 +70,7 @@ input:invalid {
 input:valid {
     color: Black;
 }
+
+#submitResponse {
+    padding: 8em 4em;
+}

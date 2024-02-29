@@ -16,3 +16,12 @@ modeButton.addEventListener("click", () => {
     spot2.classList.toggle('darkmode');
     spot3.classList.toggle('darkmode');
 });
+
+// // select all elements with the class of membership
+// const elements = document.querySelectorAll(".membership");
+
+// // iterate over each element using forEach
+// elements.forEach(function(element){
+//     element.style.backgroundColor = 'black';
+//     element.style.color = 'white';    
+// });

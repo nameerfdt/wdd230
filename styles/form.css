@@ -45,7 +45,7 @@ form input.submitBtn {
 }
 
 form label input:required {
-    border-left: 6px solid red;
+    border-left: 6px solid #B0B493;
 }
 
 form div#rangevalue {

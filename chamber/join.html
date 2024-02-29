@@ -61,7 +61,8 @@
                         <input type="text" id="lname" name="lname" required></label>
 
                     <label class="info" for="title">Job Title or Position*
-                        <input type="text" id="title" name="title" pattern="^[A-Za-z\s\-]{7,}$" required></label>
+                        <input type="text" id="title" name="title" pattern="^[A-Za-z\s\-]{7,}$" required
+                            title="Must be minimum 7 characters (alpha-numeric, space, hyphons)"></label>
 
                     <label class="info" for="email">Email* <input type="email" id="email" name="email"
                             placeholder="anyone@email.com" title="Please enter a valid email address." required></label>
@@ -99,7 +100,7 @@
                         placeholder="Enter a description of your business or organization."></textarea>
                 </fieldset>
 
-                <input type="hidden" id="currentDateTime" name="currentDateTime">
+                <input type="hidden" id="currentDateTime" name="currentDateTime" value="currentDate">
 
                 <input type="submit" value="Join the Chamber!" class="submitBtn">
             </form>
@@ -158,8 +159,6 @@
                     </ul>
 
                 </section>
-
-
 
             </div>
         </div>

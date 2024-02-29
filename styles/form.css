@@ -68,7 +68,7 @@ input:invalid {
 }
 
 input:valid {
-    color: Black;
+    color: var(--color-black);
 }
 
 #submitResponse {

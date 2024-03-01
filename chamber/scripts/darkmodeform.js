@@ -15,7 +15,7 @@ dark.addEventListener('click', function() {
     memLevels.forEach(function(element){
         // element.addEventListener('click', function(){
             if (element.style.backgroundColor === 'black') {
-                element.style.backgroundColor = 'pink';
+                element.style.backgroundColor = '';
             } else {
                 element.style.backgroundColor = 'black'
                     }

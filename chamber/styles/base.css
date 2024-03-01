@@ -297,6 +297,7 @@ form input.submitBtn {
     font-size: 1em;
     padding: .25em;
     margin-top: .5em;
+    margin-left: 1em;
     width: 50%;
     max-width: 20rem;
 }

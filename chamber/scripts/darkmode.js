@@ -35,21 +35,43 @@ modeButton.addEventListener("click", () => {
 
 // select all elements with the class of membership
 const elements = document.querySelectorAll(".membership");
+// const discover = document.querySelectorAll("#history");
 let isDarkMode = false;
 
 modeButton.addEventListener("click", () => {
     if (!isDarkMode) {
 // iterate over each element using forEach
-elements.forEach(function(element){
-    element.style.backgroundColor = 'black';
-    element.style.color = 'white';   
-    });
-    isDarkMode = true;
-} else {
     elements.forEach(function(element){
-        element.style.backgroundColor = '';
-        element.style.color = '';   
-});
-isDarkMode = false;
+        element.style.backgroundColor = 'black';
+        element.style.color = 'white';  
+        });
+        isDarkMode = true;
+    } else {
+        elements.forEach(function(element){
+            element.style.backgroundColor = '';
+            element.style.color = '';  
+    });
+    isDarkMode = false;
 }
 });
+
+
+// const elements = document.querySelectorAll("*");
+// const isDarkMode = false;
+
+// modeButton.addEventListener("click", () => {
+//     if (!isDarkMode) {
+// // iterate over each element using forEach
+// elements.forEach(function(element){
+//     element.style.backgroundColor = 'black';
+//     element.style.color = 'white';   
+//     });
+//     isDarkMode = true;
+// } else {
+//     elements.forEach(function(element){
+//         element.style.backgroundColor = '';
+//         element.style.color = '';   
+// });
+// isDarkMode = false;
+// }
+// });

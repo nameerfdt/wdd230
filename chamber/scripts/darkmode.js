@@ -17,11 +17,39 @@ modeButton.addEventListener("click", () => {
     spot3.classList.toggle('darkmode');
 });
 
+// // if I add this, when I click darkmode, all turns durk, if I click dark mode again, it keeps the sections black
+
 // // select all elements with the class of membership
 // const elements = document.querySelectorAll(".membership");
 
+// modeButton.addEventListener("click", () => {
 // // iterate over each element using forEach
 // elements.forEach(function(element){
 //     element.style.backgroundColor = 'black';
 //     element.style.color = 'white';    
 // });
+
+// });
+
+// THIS WILL CHANGE TO DARKMODE AND CHANGE BACK TO ORIGINAL WHEN CLICKED FOR THE JOIN PAGE
+
+// select all elements with the class of membership
+const elements = document.querySelectorAll(".membership");
+let isDarkMode = false;
+
+modeButton.addEventListener("click", () => {
+    if (!isDarkMode) {
+// iterate over each element using forEach
+elements.forEach(function(element){
+    element.style.backgroundColor = 'black';
+    element.style.color = 'white';   
+    });
+    isDarkMode = true;
+} else {
+    elements.forEach(function(element){
+        element.style.backgroundColor = '';
+        element.style.color = '';   
+});
+isDarkMode = false;
+}
+});

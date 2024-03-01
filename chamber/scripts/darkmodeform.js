@@ -2,9 +2,9 @@
 
 
 
-// select the toggle element ID and assign variable named dark
-// this is the element I want to add a click event listener to.
-const dark = document.getElementById("darkmode");
+// // select the toggle element ID and assign variable named dark
+// // this is the element I want to add a click event listener to.
+// const dark = document.getElementById("darkmode");
 
 // add event click listener dark
 dark.addEventListener('click', function() {
@@ -52,5 +52,3 @@ dark.addEventListener('click', function() {
     //     element.style.backgroundColor = 'black';
     //     element.style.color = 'white';    
     // });
-
-  

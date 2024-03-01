@@ -2,7 +2,7 @@
 
 
 
-// select the toggle element ID and assign variable named toggleDark
+// select the toggle element ID and assign variable named dark
 // this is the element I want to add a click event listener to.
 const dark = document.getElementById("darkmode");
 
@@ -10,17 +10,18 @@ const dark = document.getElementById("darkmode");
 dark.addEventListener('click', function() {
     // code to be executed when dark is clicked
     // select all elements with the class of membership
-const memLevels = document.querySelectorAll(".membership");
+    const memLevels = document.querySelectorAll(".membership");
+    // for each class membership, toggle the background color
     memLevels.forEach(function(element){
-        element.addEventListener('click', function(){
+        // element.addEventListener('click', function(){
             if (element.style.backgroundColor === 'black') {
-                element.style.backgroundColor = '';
+                element.style.backgroundColor = 'pink';
             } else {
                 element.style.backgroundColor = 'black'
                     }
             });
         });
-    });
+    ;
 
 //========================== 
 

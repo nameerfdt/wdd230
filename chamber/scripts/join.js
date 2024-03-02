@@ -1,5 +1,7 @@
-// get current timestamp in milliseconds
-const currentTimestamp = Date.now()
+// select the timeStamp element from the HTML document and give it the varible name of currentTimestamp
+let currentTimestamp = document.querySelector('timeStamp');
 
-// set the html id timestamp to currentTimestamp
-document.getElementById("timeStamp").value = currentTimestamp;
+// set currentTimestamp to current date
+currentTimestamp = Date.now();
+
+// console.log(currentTimestamp);

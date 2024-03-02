@@ -19,7 +19,7 @@ modeButton.addEventListener("click", () => {
 
 // // if I add this, when I click darkmode, all turns durk, if I click dark mode again, it keeps the sections black
 
-// // select all elements with the class of membership
+// select all elements with the class of membership
 // const elements = document.querySelectorAll(".membership");
 
 // modeButton.addEventListener("click", () => {
@@ -33,27 +33,29 @@ modeButton.addEventListener("click", () => {
 
 // THIS WILL CHANGE TO DARKMODE AND CHANGE BACK TO ORIGINAL WHEN CLICKED FOR THE JOIN PAGE
 
-// // select all elements with the class of membership
+// select all elements with the class of membership
 // const elements = document.querySelectorAll(".membership");
-// // const discover = document.querySelectorAll("#history");
-// let isDarkMode = false;
+const elements = document.querySelectorAll(".sections");
+let isDarkMode = false;
 
-// modeButton.addEventListener("click", () => {
-//     if (!isDarkMode) {
-// // iterate over each element using forEach
-//     elements.forEach(function(element){
-//         element.style.backgroundColor = 'black';
-//         element.style.color = 'white';  
-//         });
-//         isDarkMode = true;
-//     } else {
-//         elements.forEach(function(element){
-//             element.style.backgroundColor = '';
-//             element.style.color = '';  
-//     });
-//     isDarkMode = false;
-// }
-// });
+modeButton.addEventListener("click", () => {
+    if (!isDarkMode) {
+// iterate over each element using forEach
+    elements.forEach(function(element){
+        element.style.backgroundColor = 'black';
+        element.style.color = 'white'; 
+        element.style.border = 'white'; 
+        });
+        isDarkMode = true;
+    } else {
+        elements.forEach(function(element){
+            element.style.backgroundColor = '';
+            element.style.color = '';
+            element.style.border = '';  
+    });
+    isDarkMode = false;
+}
+});
 
 // THIS WILL CHANGE ALL TO BLACK/WHITE BUT NOT CHANGE BACK
 

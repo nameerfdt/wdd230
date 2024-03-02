@@ -33,28 +33,29 @@ modeButton.addEventListener("click", () => {
 
 // THIS WILL CHANGE TO DARKMODE AND CHANGE BACK TO ORIGINAL WHEN CLICKED FOR THE JOIN PAGE
 
-// select all elements with the class of membership
-const elements = document.querySelectorAll(".membership");
-// const discover = document.querySelectorAll("#history");
-let isDarkMode = false;
+// // select all elements with the class of membership
+// const elements = document.querySelectorAll(".membership");
+// // const discover = document.querySelectorAll("#history");
+// let isDarkMode = false;
 
-modeButton.addEventListener("click", () => {
-    if (!isDarkMode) {
-// iterate over each element using forEach
-    elements.forEach(function(element){
-        element.style.backgroundColor = 'black';
-        element.style.color = 'white';  
-        });
-        isDarkMode = true;
-    } else {
-        elements.forEach(function(element){
-            element.style.backgroundColor = '';
-            element.style.color = '';  
-    });
-    isDarkMode = false;
-}
-});
+// modeButton.addEventListener("click", () => {
+//     if (!isDarkMode) {
+// // iterate over each element using forEach
+//     elements.forEach(function(element){
+//         element.style.backgroundColor = 'black';
+//         element.style.color = 'white';  
+//         });
+//         isDarkMode = true;
+//     } else {
+//         elements.forEach(function(element){
+//             element.style.backgroundColor = '';
+//             element.style.color = '';  
+//     });
+//     isDarkMode = false;
+// }
+// });
 
+// THIS WILL CHANGE ALL TO BLACK/WHITE BUT NOT CHANGE BACK
 
 // const elements = document.querySelectorAll("*");
 // const isDarkMode = false;

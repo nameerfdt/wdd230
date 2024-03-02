@@ -1,21 +1,10 @@
 const modeButton = document.querySelector("#darkmodeBtn");
 const body = document.querySelector("body");
 const main = document.querySelector("main");
-// const events = document.querySelector("#events");
-// const weather = document.querySelector("#weather");
-// const spot1 = document.querySelector("#spotlight1");
-// const spot2 = document.querySelector("#spotlight2");
-// const spot3 = document.querySelector("#spotlight3");
 
 modeButton.addEventListener("click", () => {
     body.classList.toggle('darkmode');
     main.classList.toggle('darkmode');
-
-    // events.classList.toggle('darkmode');
-    // weather.classList.toggle('darkmode');
-    // spot1.classList.toggle('darkmode');
-    // spot2.classList.toggle('darkmode');
-    // spot3.classList.toggle('darkmode');
 });
 
 
@@ -24,26 +13,56 @@ modeButton.addEventListener("click", () => {
 // select all elements with the class of membership
 // const elements = document.querySelectorAll(".membership");
 const elements = document.querySelectorAll(".sections");
+const links = document.querySelectorAll(".links");
 let isDarkMode = false;
 
+// if the dark mode button is clicked
 modeButton.addEventListener("click", () => {
     if (!isDarkMode) {
-// iterate over each element using forEach
+// iterate over each section element to change the background, color, and border
     elements.forEach(function(element){
         element.style.backgroundColor = 'black';
         element.style.color = 'white'; 
         element.style.border = '1px solid white'; 
         });
         isDarkMode = true;
+
+// iterated over each a.link element to change to color to white
+    links.forEach(function(element){
+        element.style.color = 'white';
+    });   
+    isDarkMode = true;
+// else style each with original styling 
     } else {
         elements.forEach(function(element){
             element.style.backgroundColor = '';
             element.style.color = '';
             element.style.border = '';  
-    });
-    isDarkMode = false;
-}
+        });
+        isDarkMode = false;
+
+        links.forEach(function(element){
+            element.style.color = '';
+        });
+    }
 });
+
+
+// modeButton.addEventListener("click", () => {
+//     if (!isDarkMode) {
+// // iterate over each element using forEach
+//     links.forEach(function(element){
+//         element.style.color = 'white'; 
+//         });
+//         isDarkMode = true;
+//     } else {
+//         links.forEach(function(element){
+//             element.style.color = ''; 
+//         });
+//         isDarkMode = false;
+//     }
+// });
+
 
 // THIS WILL CHANGE ALL TO BLACK/WHITE BUT NOT CHANGE BACK
 

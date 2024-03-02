@@ -10,6 +10,7 @@ const main = document.querySelector("main");
 modeButton.addEventListener("click", () => {
     body.classList.toggle('darkmode');
     main.classList.toggle('darkmode');
+
     // events.classList.toggle('darkmode');
     // weather.classList.toggle('darkmode');
     // spot1.classList.toggle('darkmode');

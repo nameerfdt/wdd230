@@ -201,7 +201,7 @@ address #quicklinks {
     display: inline;
 }
 
-#visited {
+h3, #visited {
     text-align: center;
 }
 

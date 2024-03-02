@@ -7,7 +7,7 @@ body {
     background-color: var(--bkg-color);
 }
 
-#darkmode {
+#darkmodeBtn {
     position: absolute;
     color: white;
     top: 1em;
@@ -206,7 +206,7 @@ address #quicklinks {
 }
 
 #discover-grid h2 {
-    color: black;
+    /* color: black; */
     font-size: 1.5em;
 }
 

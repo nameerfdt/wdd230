@@ -1,4 +1,4 @@
-const modeButton = document.querySelector("#darkmode");
+const modeButton = document.querySelector("#darkmodeBtn");
 const body = document.querySelector("body");
 const main = document.querySelector("main");
 const events = document.querySelector("#events");
@@ -17,19 +17,6 @@ modeButton.addEventListener("click", () => {
     spot3.classList.toggle('darkmode');
 });
 
-// // if I add this, when I click darkmode, all turns durk, if I click dark mode again, it keeps the sections black
-
-// select all elements with the class of membership
-// const elements = document.querySelectorAll(".membership");
-
-// modeButton.addEventListener("click", () => {
-// // iterate over each element using forEach
-// elements.forEach(function(element){
-//     element.style.backgroundColor = 'black';
-//     element.style.color = 'white';    
-// });
-
-// });
 
 // THIS WILL CHANGE TO DARKMODE AND CHANGE BACK TO ORIGINAL WHEN CLICKED FOR THE JOIN PAGE
 
@@ -44,7 +31,7 @@ modeButton.addEventListener("click", () => {
     elements.forEach(function(element){
         element.style.backgroundColor = 'black';
         element.style.color = 'white'; 
-        element.style.border = 'white'; 
+        element.style.border = '1px solid white'; 
         });
         isDarkMode = true;
     } else {
@@ -77,4 +64,18 @@ modeButton.addEventListener("click", () => {
 // });
 // isDarkMode = false;
 // }
+// });
+
+// // if I add this, when I click darkmode, all turns durk, if I click dark mode again, it keeps the sections black
+
+// select all elements with the class of membership
+// const elements = document.querySelectorAll(".membership");
+
+// modeButton.addEventListener("click", () => {
+// // iterate over each element using forEach
+// elements.forEach(function(element){
+//     element.style.backgroundColor = 'black';
+//     element.style.color = 'white';    
+// });
+
 // });

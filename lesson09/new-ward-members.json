@@ -1,0 +1,35 @@
+{
+"wardMembers": {
+"familyName": "Freeman",
+"movedInDate": "2024-03-01",
+"numberOfPeople": 5,
+"visitedByBishopric": true,
+"familyMembers":[
+    {
+        "name": "Kyle Freeman",
+        "gender": "Male",
+        "birthdate": "1958-09-28"
+    },
+    {
+        "name": "Tracy Freeman",
+        "gender": "Female",
+        "birthdate": "1972-06-27"
+    },
+    {
+        "name": "Natalie Freeman",
+        "gender": "Freeman",
+        "birthdate": "1995-06-28"
+    },
+    {
+        "name": "Brittany Freeman",
+        "gender": "Female",
+        "birthdate": "1997-12-05"
+    },
+    {
+        "name": "Blake Freeman",
+        "gender": "Male",
+        "birthdate": "2000-10-03"
+    }
+]
+}
+}

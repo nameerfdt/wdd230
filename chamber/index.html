@@ -11,7 +11,7 @@
 
     <link rel="icon" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <!-- <link rel="manifest" href="/site.webmanifest"> -->
 
@@ -30,7 +30,7 @@
 <body>
     <header>
         <!-- added toggle switch -->
-        <div id="darkmode">
+        <div id="darkmodeBtn">
             ☀️ / 😎
         </div>
 
@@ -47,31 +47,20 @@
 
     <div id="hero-box">
         <picture>
-            <!-- <source media="(max-width: 500px)" srcset="images/folsom-american-river1000-500.webp">
-                <source media="(max-width: 1000px)" srcset="images/folsom-american-river1000-500.webp">
-                <img src="images/folsom-american-river1500-750.webp" alt="River larger" width="1500" height="750"> -->
-
-            <source media="(max-width: 500px)" srcset="images/wdd230-small.webp">
-            <source media="(max-width: 1000px)" srcset="images/wdd230-medium.webp">
-            <img src="images/wdd230-large.webp" alt="wdd230 image" width="6429" height="4286">
-
+            <source media="(max-width: 500px)" srcset="images/folsom-american-river1000-500.webp">
+            <source media="(max-width: 1000px)" srcset="images/folsom-american-river1000-500.webp">
+            <img src="images/folsom-american-river1500-750.webp" alt="River larger" width="1500" height="750">
         </picture>
-        <!-- <h1>Prison Blues<br><br>Chamber of Commerce</h1> -->
-        <!-- <button onclick="document.location='#'">Join Now!</button> -->
-        <div id="small-label">
-            <p>Small</p>
-        </div>
-        <div id="medium-label">
-            <p>Medium</p>
-        </div>
-        <div id="large-label">
-            <p>Large</p>
-        </div>
+        <h1>Prison Blues<br><br>Chamber of Commerce</h1>
+
+        <button onclick="document.location='#'">Join Now!</button>
+
+    </div>
     </div>
 
     <main>
         <div id="home-grid">
-            <section id="events">
+            <section class="sections" id="events">
                 <h3>Events</h3>
                 <hr class="horizontal-line">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perferendis ipsum minus eum recusandae
@@ -79,7 +68,7 @@
                     reprehenderit.</p>
             </section>
 
-            <section id="weather">
+            <section class="sections" id="weather">
                 <h3>Weather</h3>
                 <hr class="horizontal-line">
                 <img src="images/windy-svgrepo-com.svg" alt="wind icon" width="50" height="50">
@@ -90,7 +79,7 @@
 
             <h2>Member Spotlight</h2>
 
-            <section id="spotlight1">
+            <section class="sections" id="spotlight1">
                 <h3>Member 1</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum velit cumque inventore quia libero
                     sapiente! Molestiae, nesciunt. Delectus commodi esse similique debitis quam totam architecto a
@@ -98,7 +87,7 @@
                     Porro, praesentium vero.</p>
             </section>
 
-            <section id="spotlight2">
+            <section class="sections" id="spotlight2">
                 <h3>Member 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illum eaque, ex, accusamus
                     velit
@@ -107,7 +96,7 @@
                     natus?</p>
             </section>
 
-            <section id="spotlight3">
+            <section class="sections" id="spotlight3">
                 <h3>Member 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos magni perferendis sint molestiae odio
                     quae

@@ -29,9 +29,19 @@ const displayProphets = (prophets) => {
         // 13.2. create an h2 element and store it in a variable named "fullName"
         const fullName = document.createElement('h2');
         // 13.3. create an img element and store it in a variable named "portrait"
+
+        // added extra info 
+        const birthDate = document.createElement('p');
+        const birthPlace = document.createElement('p');
+
         const portrait = document.createElement('img');
         // 13.4. populate the heading element with the prophet's full name using a template string to build the full name extracted from the json file
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+
+        // added extra info
+        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+
         // 13.5. build the image element by setting the src, alt, loading, width, and height attributes using setAttribute()
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
@@ -40,6 +50,9 @@ const displayProphets = (prophets) => {
         portrait.setAttribute('height', '440');
         // 13.6. using appendChild() on the section element named "card" add the heading and image elements one at a time. 
         card.appendChild(fullName);
+                // added extra info
+                card.appendChild(birthDate);
+                card.appendChild(birthPlace);
         card.appendChild(portrait);
         // 13.7. finally add the section card to the "cards" div that was selected at the beginning of the script file
         cards.appendChild(card);

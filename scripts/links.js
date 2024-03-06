@@ -10,7 +10,41 @@ async function getAssignLinks() {
     const response = await fetch(linksURL);
     // convert response to JSON object and store in variable named data 
     const data = await response.json();
-    // expressiong to test data response
-    console.table(data.links);
+    // expression to test data response that will be removed after testing
+    // console.log(data);
+    // add a new line of code that calls a function that will build out the available activity links from the data response
+    displayLinks(data.lessons);
+}   
+    // calls the getAssignLinks functions
+    getAssignLinks();
+
+
+const activities = document.getElementById("activities")
+
+// create displayLinks() function and name the function parmater "weeks". Remember the json data is an array of objects representin weeks of the term. 
+const displayLinks = (weeks) => {
+    // use a loop to process each week using it's "week" string and the "links' object ("url" and "title") to create the output
+    weeks.forEach((week) => {
+        // create a section element with a variable named card
+        const card = document.createElement('section');
+        // create an h4 element for the lesson header
+        const lesson = document.createElement('h4');
+        // create a paragraph element with the variable name of links.
+        const link = document.createElement('p');
+        const url = document.createElement('p');
+        const title = document.createElement('p');
+
+        // create textc content for lesson and link variables
+        lesson.textContent = `Week: ${week.url}`; 
+        url.textContent = `${week.url}`;
+        title.textContent = `${week.title}`;
+
+            card.appendChild(lesson);
+            card.appendChild(link);
+
+        activities.appendChild(card);
+
+    })
+
+
 }
-getAssignLinks();

@@ -18,8 +18,8 @@ async function getAssignLinks() {
     // calls the getAssignLinks functions
     getAssignLinks();
 
-
-const activities = document.getElementById("activities")
+// get the id for the unordered list
+const activities = document.getElementById("course-links")
 
 // create displayLinks() function and name the function parmater "weeks". Remember the json data is an array of objects representin weeks of the term. 
 const displayLinks = (weeks) => {
@@ -28,23 +28,11 @@ const displayLinks = (weeks) => {
         // create a section element with a variable named card
         const card = document.createElement('section');
         // create an h4 element for the lesson header
-        const lesson = document.createElement('h4');
-        // create a paragraph element with the variable name of links.
-        const link = document.createElement('p');
-        const url = document.createElement('p');
-        const title = document.createElement('p');
-
-        // create textc content for lesson and link variables
-        lesson.textContent = `Week: ${week.url}`; 
-        url.textContent = `${week.url}`;
-        title.textContent = `${week.title}`;
-
-            card.appendChild(lesson);
-            card.appendChild(link);
+        const h4 = document.createElement('h4');
+        // create text content for lesson and link variables
+        h4.textContent = `${week.lesson}: `; 
+        card.appendChild(h4);
 
         activities.appendChild(card);
-
-    })
-
-
-}
+    });
+};

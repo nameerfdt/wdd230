@@ -1,0 +1,68 @@
+{
+    "companies": [
+      {
+        "name": "ABC Company",
+        "address": "123 Main Street, Folsom, CA",
+        "phone": "555-123-4567",
+        "website": "https://www.abc-company.com",
+        "image": "abc-company-logo.png",
+        "membership_level": "Gold",
+        "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "XYZ Inc.",
+        "address": "456 Oak Avenue, Folsom, CA",
+        "phone": "555-987-6543",
+        "website": "https://www.xyz-inc.com",
+        "image": "xyz-inc-logo.png",
+        "membership_level": "Silver",
+        "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Smith & Sons",
+        "address": "789 Elm Street, Folsom, CA",
+        "phone": "555-567-8901",
+        "website": "https://www.smithandsons.com",
+        "image": "smith-and-sons-logo.png",
+        "membership_level": "Bronze",
+        "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "name": "Tech Solutions",
+        "address": "321 Cedar Avenue, Folsom, CA",
+        "phone": "555-234-5678",
+        "website": "https://www.techsolutions.com",
+        "image": "tech-solutions-logo.png",
+        "membership_level": "Platinum",
+        "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "name": "Green Energy Co.",
+        "address": "567 Maple Street, Folsom, CA",
+        "phone": "555-678-9012",
+        "website": "https://www.greenenergyco.com",
+        "image": "green-energy-co-logo.png",
+        "membership_level": "Gold",
+        "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "Folsom Hardware",
+        "address": "876 Pine Avenue, Folsom, CA",
+        "phone": "555-345-6789",
+        "website": "https://www.folsomhardware.com",
+        "image": "folsom-hardware-logo.png",
+        "membership_level": "Silver",
+        "other_information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+      },
+      {
+        "name": "Sunrise Cafe",
+        "address": "654 Walnut Street, Folsom, CA",
+        "phone": "555-789-0123",
+        "website": "https://www.sunrisecafe.com",
+        "image": "sunrise-cafe-logo.png",
+        "membership_level": "Bronze",
+        "other_information": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+      }
+    ]
+  }
+  

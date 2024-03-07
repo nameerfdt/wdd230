@@ -45,7 +45,6 @@ const displayLinks = (weeks) => {
         const card = document.createElement('section');
         const weekNumber = document.createElement('h4');
         weekNumber.textContent = `Week ${week.lesson}`;
-        // card.appendChild(weekNumber);
 
         // create unordered list variable to store the lessons objects
         const linkList = document.createElement('ul');

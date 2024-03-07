@@ -38,28 +38,36 @@ const activities = document.getElementById("course-links")
 //     });
 // };
 
-// END THIS PUTS THE WEEK NUMBERS ON PAGE
+// END
 
 const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         const card = document.createElement('section');
         const weekNumber = document.createElement('h4');
         weekNumber.textContent = `Week ${week.lesson}`;
-        card.appendChild(weekNumber);
+        // card.appendChild(weekNumber);
 
+        // create unordered list variable to store the lessons objects
         const linkList = document.createElement('ul');
-
+        
+        // function to loop through the lessons array to get url and title
         week.links.forEach((link) => {
+            // create list element
             const listItem = document.createElement('li');
+            // create anchor element for the url links
             const anchor = document.createElement('a');
 
+            // create text content for the anchor for the JSON title
             anchor.textContent = link.title;
+            // set the href attribute for the anchor element and use the JSON url
             anchor.setAttribute('href', link.url);
 
+            // append anchor to the listItem
             listItem.appendChild(anchor);
+            // append the listItem to the linkLink
             linkList.appendChild(listItem);
         });
-
+        card.appendChild(weekNumber)
         card.appendChild(linkList);
         activities.appendChild(card);
     });

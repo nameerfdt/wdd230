@@ -17,15 +17,15 @@
         "lesson": "02",
         "links": [
             {
-                "url": "lesson02/design.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson02/design.html",
                 "title": "Design Principles"
             },
             {
-                "url": "lesson01/media-query.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson01/media-query.html",
                 "title": "Media Queries"
             },
             {
-                "url": "lesson02/design-principles.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson02/design-principles.html",
                 "title": "Design Principles Document"
             }
         ]
@@ -34,7 +34,7 @@
         "lesson": "03",
         "links": [
             {
-                "url": "images/css-combinators.png",
+                "url": "https://nameerfdt.github.io/wdd230/images/css-combinators.png",
                 "title": "CSS Combinators"
             },
             {
@@ -60,7 +60,7 @@
         "lesson": "05",
         "links": [
             {
-                "url": "lesson05/bom.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson05/bom.html",
                 "title": "Book of Mormon Favorite Chapters"
             }
         ]
@@ -69,11 +69,11 @@
         "lesson": "06",
         "links": [
             {
-                "url": "lesson06/images/landscape.webp",
+                "url": "https://nameerfdt.github.io/wdd230/lesson06/images/landscape.webp",
                 "title": "Webp Landscape Image"
             },
             {
-                "url": "lesson06/responsive-images.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson06/responsive-images.html",
                 "title": "Responsive Images"
             }
         ]
@@ -82,11 +82,11 @@
         "lesson": "07",
         "links": [
             {
-                "url": "lesson07/lazyload.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson07/lazyload.html",
                 "title": "Lazy Load"
             },
             {
-                "url": "lesson07/bom.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson07/bom.html",
                 "title": "BOM LocalStorage"
             }
         ]
@@ -95,11 +95,11 @@
         "lesson": "08",
         "links": [
             {
-                "url": "lesson08/tablebuild.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson08/tablebuild.html",
                 "title": "Table Build"
             },
             {
-                "url": "lesson08/index.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson08/index.html",
                 "title": "Form Build"
             }
         ]
@@ -108,11 +108,11 @@
         "lesson": "09",
         "links": [
             {
-                "url": "lesson09/new-ward-members.json",
+                "url": "https://nameerfdt.github.io/wdd230/lesson09/new-ward-members.json",
                 "title": "Members JSON"
             },
             {
-                "url": "lesson09/prophets.html",
+                "url": "https://nameerfdt.github.io/wdd230/lesson09/prophets.html",
                 "title": "Latter-day Prophets"
             }
         ]

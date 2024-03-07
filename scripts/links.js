@@ -59,7 +59,7 @@ const displayLinks = (weeks) => {
             // create text content for the anchor for the JSON title
             anchor.textContent = link.title;
             // set the href attribute for the anchor element and use the JSON url
-            anchor.setAttribute('href', link.url);
+            anchor.setAttribute('href', baseURL+link.url);
 
             // append anchor to the listItem
             listItem.appendChild(anchor);

@@ -21,18 +21,46 @@ async function getAssignLinks() {
 // get the id for the unordered list
 const activities = document.getElementById("course-links")
 
-// create displayLinks() function and name the function parmater "weeks". Remember the json data is an array of objects representin weeks of the term. 
-const displayLinks = (weeks) => {
-    // use a loop to process each week using it's "week" string and the "links' object ("url" and "title") to create the output
-    weeks.forEach((week) => {
-        // create a section element with a variable named card
-        const card = document.createElement('section');
-        // create an h4 element for the lesson header
-        const h4 = document.createElement('h4');
-        // create text content for lesson and link variables
-        h4.textContent = `${week.lesson}: `; 
-        card.appendChild(h4);
+// START THIS PUTS THE WEEK NUMBERS ON PAGE
 
+// create displayLinks() function and name the function parmater "weeks". Remember the json data is an array of objects representin weeks of the term. 
+// const displayLinks = (weeks) => {
+//     // use a loop to process each week using it's "week" string and the "links' object ("url" and "title") to create the output
+//     weeks.forEach((week) => {
+//         // create a section element with a variable named card
+//         const card = document.createElement('section');
+//         // create an h4 element for the lesson header
+//         const h4 = document.createElement('h4');
+//         // create text content for lesson and link variables
+//         h4.textContent = `${week.lesson}: `; 
+//         card.appendChild(h4);
+//         activities.appendChild(card);
+//     });
+// };
+
+// END THIS PUTS THE WEEK NUMBERS ON PAGE
+
+const displayLinks = (weeks) => {
+    weeks.forEach((week) => {
+        const card = document.createElement('section');
+        const weekNumber = document.createElement('h4');
+        weekNumber.textContent = `Week ${week.lesson}`;
+        card.appendChild(weekNumber);
+
+        const linkList = document.createElement('ul');
+
+        week.links.forEach((link) => {
+            const listItem = document.createElement('li');
+            const anchor = document.createElement('a');
+
+            anchor.textContent = link.title;
+            anchor.setAttribute('href', link.url);
+
+            listItem.appendChild(anchor);
+            linkList.appendChild(listItem);
+        });
+
+        card.appendChild(linkList);
         activities.appendChild(card);
     });
 };

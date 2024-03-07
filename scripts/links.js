@@ -49,7 +49,7 @@ const displayLinks = (weeks) => {
         // create unordered list variable to store the lessons objects
         const linkList = document.createElement('ul');
         
-        // function to loop through the lessons array to get url and title
+        // function to loop through the links array to get url and title
         week.links.forEach((link) => {
             // create list element
             const listItem = document.createElement('li');

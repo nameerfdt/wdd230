@@ -1,3 +1,8 @@
+const memberCards = document.getElementById('memberCards');
+const gridBtn = document.querySelector("#grid");
+const listBtn = document.querySelector('#list');
+const display = document.querySelector('article');
+
 const baseURL = "https://nameerfdt.github.io/wdd230/chamber";
 const membersURL = "https://nameerfdt.github.io/wdd230/chamber/data/members.json";
 
@@ -8,8 +13,6 @@ async function getMemberData() {
     displayMembers(data.members);
 }
     getMemberData();
-
-const memberCards = document.getElementById('memberCards');
 
 const displayMembers = (members) => {
 

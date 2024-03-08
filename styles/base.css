@@ -37,7 +37,7 @@
   right: 10px;
   background:radial-gradient(#fff, #90b5dd4d
   );
-  border: 1px solid va(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .hero-label p {

@@ -1,41 +1,35 @@
-// create a baseURl variable that references my root WDD230 repo, GitHub pages URL
-const baseURL = "https://nameerfdt.github.io/wdd230/";
+const displayLinks = (weeks) => {
+    weeks.forEach((week) => {
+        const card = document.createElement('section');
+        const weekNumber = document.createElement('h4');
+        weekNumber.textContent = `Week ${week.lesson}`;
 
-// add a variable named linksURl that references your links.json data file
-const linksURL = "https://nameerfdt.github.io/wdd230/data/links.json";
+        // Create a container for the links
+        const linksContainer = document.createElement('div');
 
-// write an asynchronous function to get the links data in the links.json data file. 
-async function getAssignLinks() {
-    // store response
-    const response = await fetch(linksURL);
-    // convert response to JSON object and store in variable named data 
-    const data = await response.json();
-    // expression to test data response that will be removed after testing
-    // console.log(data);
-    // add a new line of code that calls a function that will build out the available activity links from the data response
-    displayLinks(data.lessons);
-}   
-    // calls the getAssignLinks functions
-    getAssignLinks();
+        // Iterate through each link in the week
+        week.links.forEach((link, index) => {
+            // Create an anchor element for the link
+            const anchor = document.createElement('a');
+            anchor.textContent = link.title;
+            anchor.setAttribute('href', link.url);
 
-    function displayLinks(data){
-        let allLessons = data.lessons;
-        const line = document.createElement('li');
-        const pizza = '';
-        allLessons.forEach(function(allLessons) {
-            let lessonNum = allLessons.lesson;
-            let lessonUrl = allLessons.links;
-            lessonUrl.forEach(function(lessonUrl){
-                let url = lessonUrl.url;
-                let title = lessonUrl.title;
-                const listItem = document.createElement('li')
-                const a = document.createElement('a');
-                a.href = url;    
-                a.textContent = title;
+            // Append the anchor to the container
+            linksContainer.appendChild(anchor);
 
-                listItem.appendChild(a.href);
+            // Add a separator if it's not the last link
+            if (index < week.links.length - 1) {
+                const separator = document.createElement('span');
+                separator.textContent = ' | ';
+                linksContainer.appendChild(separator);
+            }
+        });
 
-                })
-        })
+        // Append the week number and links container to the card
+        card.appendChild(weekNumber);
+        card.appendChild(linksContainer);
 
-        }
+        // Append the card to the activities section
+        activities.appendChild(card);
+    });
+};

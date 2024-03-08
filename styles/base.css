@@ -1,3 +1,9 @@
+  :root {
+    --main-color: #B0B493;
+    --secondary-color: black;
+    --text-align: center;
+  }
+  
   body {
     max-width: 800px;
     font-family: Roboto, Arial, sans-serif;
@@ -5,7 +11,7 @@
   }
   
   header {
-    background: #B0B493;
+    background: var(--main-color);
     padding: 2em;
   }
 
@@ -15,7 +21,7 @@
     align-items: center;
   }
 
- .profile img {
+ .profile img, .hero img  {
     width: 100%;
     height: auto;
   }
@@ -24,11 +30,6 @@
   position: relative;
   margin: 0 auto;
 }
-
-.hero img {
-  width: 100%;
-  height: auto;
-  }
   
 .hero-label {
   position: absolute;
@@ -36,7 +37,7 @@
   right: 10px;
   background:radial-gradient(#fff, #90b5dd4d
   );
-  border: 1px solid black;
+  border: 1px solid va(--secondary-color);
 }
 
 .hero-label p {
@@ -47,15 +48,15 @@
 
   h1 {
     display: flex;
-    text-align: center;
+    text-align: var(--text-align);
     padding-left: 10px;
     font-family: Handlee, Arial, sans-serif;
     margin: 0 auto;
   }
 
   nav {
-    background: #000000;
-    text-align: center;
+    background: var(--secondary-color);
+    text-align: var(--text-align);
     margin: auto;
   }
 
@@ -66,8 +67,8 @@
     text-decoration: none;
     padding-left: 15px;
     padding-bottom: 10px;
-    background-color: black;
-    color: #B0B493;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
   }
 
   #hamburgermenu::before {
@@ -119,35 +120,35 @@
   }
 
  h3 {
-    text-align: center;
+    text-align: var(--text-align);
     margin: 0;
     padding: 15px;
   }
 
   h2 {
     margin: 15px;
-    text-align: center;
+    text-align: var(--text-align);
   }
 
   hr.line-break {
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
     margin-top: 0;
     width: 97%;
   }
 
   .card {
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
     margin: 15px;
     border-radius: 5px;
   }
 
   h3 {
-    background: #B0B493;
+    background: var(--main-color);
   }
 
   li a {
     text-align: left;
-    color: black;
+    color: var(--secondary-color);
     font-size: 20px;
   }
 
@@ -166,7 +167,7 @@
   }
     
   .info, .pagevisits {
-    text-align: center;
+    text-align: var(--text-align);
     font-size: 1em;
   }
 
@@ -198,8 +199,8 @@
   }
 
   footer {
-    background: #B0B493;
+    background: var(--main-color);
     padding: 5px;
-    text-align: center;
+    text-align: var(--text-align);
     grid-column: 1 / 3;
   }

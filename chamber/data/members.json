@@ -1,67 +1,67 @@
 {
     "companies": [
       {
-        "name": "ABC Company",
-        "address": "123 Main Street, Folsom, CA",
-        "phone": "555-123-4567",
-        "website": "https://www.abc-company.com",
-        "image": "abc-company-logo.png",
+        "name": "Intel Corporation",
+        "address": "1900 Prairie City Road, Folsom, CA",
+        "phone": "916-356-6610",
+        "website": "https://www.intel.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/intel.webp",
         "membership_level": "Gold",
-        "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "other_information": "Intel is a multinational corporation known for designing and manufacturing semiconductor chips and other related products. Intel has a significant presence in Folsom, with a large campus that houses research, development, and manufacturing facilities."
       },
       {
-        "name": "XYZ Inc.",
-        "address": "456 Oak Avenue, Folsom, CA",
+        "name": "Micron Technology, Inc.",
+        "address": "2001 Danbury Street, Folsom, CA",
         "phone": "555-987-6543",
-        "website": "https://www.xyz-inc.com",
-        "image": "xyz-inc-logo.png",
+        "website": "https://www.micron.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/micron-logo.webp",
         "membership_level": "Silver",
-        "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "other_information": "Micron is major player in the semiconductor industry, specializing in memory and storage solutions. Micron has operations in Folsom, including research and development facilities focused on advancing memory technologies."
       },
       {
-        "name": "Smith & Sons",
-        "address": "789 Elm Street, Folsom, CA",
+        "name": "Verizon",
+        "address": "221 Iron Point Road, Folsom, CA",
         "phone": "555-567-8901",
-        "website": "https://www.smithandsons.com",
-        "image": "smith-and-sons-logo.png",
+        "website": "https://www.verizon.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/verizon.webp",
         "membership_level": "Bronze",
-        "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "other_information": "Verizon Communications is a telecommunications company providing wireless communication services, internet access, and other related products and services. Verizon has a significant presence in Folsom, serving both residential and business customers in the area."
       },
       {
-        "name": "Tech Solutions",
-        "address": "321 Cedar Avenue, Folsom, CA",
-        "phone": "555-234-5678",
-        "website": "https://www.techsolutions.com",
-        "image": "tech-solutions-logo.png",
+        "name": "PowerSchool",
+        "address": "1000 Blue Ravine Road, Folsom, CA",
+        "phone": "916-294-8900",
+        "website": "https://www.powerschool.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/powerschool.webp",
         "membership_level": "Platinum",
-        "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "other_information": "PowerSchool is a leading provider of cloud-based software solutions for K-12 education. Headquartered in Folsom, PowerSchool offers a comprehensive suite of products and services designed to streamline school operations, improve student outcomes, and enhance the educational experience."
       },
       {
-        "name": "Green Energy Co.",
-        "address": "567 Maple Street, Folsom, CA",
-        "phone": "555-678-9012",
-        "website": "https://www.greenenergyco.com",
-        "image": "green-energy-co-logo.png",
+        "name": "Waste Connections",
+        "address": "3601 Hwy 50 East, Folsom, CA",
+        "phone": "916-609-3100",
+        "website": "https://www.wasteconnections.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/wasteconnections.webp",
         "membership_level": "Gold",
-        "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "other_information": "Waste Connections is a waste management company providing collection, disposal, recycling, and other environmental services. With operations across North America, Waste Connections serves residential, commercial, industrial, and municipal customers in Folsom and surrounding areas."
       },
       {
-        "name": "Folsom Hardware",
-        "address": "876 Pine Avenue, Folsom, CA",
-        "phone": "555-345-6789",
-        "website": "https://www.folsomhardware.com",
-        "image": "folsom-hardware-logo.png",
+        "name": "California Independent System Operator (CAISO)",
+        "address": "250 Outcropping Way, Folsom, CA",
+        "phone": "916-608-7170",
+        "website": "http://www.caiso.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/caiso.webp",
         "membership_level": "Silver",
-        "other_information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        "other_information": "CAISO is a nonprofit public benefit corporation that manages the flow of electricity across the high-voltage power grid for most of California and a small part of Nevada. Located in Folsom, CAISO plays a crucial role in ensuring the reliability and stability of the state's electrical grid."
       },
       {
-        "name": "Sunrise Cafe",
-        "address": "654 Walnut Street, Folsom, CA",
-        "phone": "555-789-0123",
-        "website": "https://www.sunrisecafe.com",
-        "image": "sunrise-cafe-logo.png",
+        "name": "Caliber Home Loans",
+        "address": "9200 Oak Avenue, Suite 100, Folsom, CA",
+        "phone": "800-401-6587",
+        "website": "https://www.caliberhomeloans.com/",
+        "image": "https://nameerfdt.github.io/wdd230/chamber.images/caliber-home.webp",
         "membership_level": "Bronze",
-        "other_information": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        "other_information": "Caliber Home Loans is a full-service mortgage banking company offering home loans and refinancing options to customers."
       }
     ]
   }

@@ -33,7 +33,7 @@ const displayMembers = (members) => {
         logo.setAttribute('src', member.image);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '150');
-        logo.setAttribute('width', '150');
+        logo.setAttribute('height', 'auto');
         businessName.textContent = `${member.name}`;
         // businessName.style.setProperty('color', 'black');
         address.textContent = `${member.address}`;

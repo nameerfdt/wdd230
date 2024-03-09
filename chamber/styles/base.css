@@ -113,7 +113,7 @@ a:hover {
     display: none;
 }
 
-button {
+/* button {
     position: absolute;
     top: 5%;
     left: 3%;
@@ -121,7 +121,7 @@ button {
     padding: 10px 10px;
     cursor: pointer;
     border-radius: 10px;
-}
+} */
 
 h1 {
     position: absolute;
@@ -347,4 +347,18 @@ label.sbs input {
 #memberCards a {
     margin: 1em;
     font-size: 1em;
+}
+
+.dirToggle {
+    padding: 1em;
+    text-align: center;
+}
+
+#gridBtn, #listBtn {
+    padding: 20px;
+}
+
+.listBtn {
+    display: flex;
+    flex-direction: column;
 }

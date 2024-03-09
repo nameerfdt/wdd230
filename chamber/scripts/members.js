@@ -23,7 +23,6 @@ const displayMembers = (members) => {
         const address = document.createElement('p');
         const city_state = document.createElement('p');
         const phone = document.createElement('p');
-        const linkURL = document.createElement('p');
 
         const website = document.createElement('a');
         website.setAttribute('href',member.website);

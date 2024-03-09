@@ -337,8 +337,14 @@ label.sbs input {
     margin: 1em 0;
 }
 
-#memberCards p, a{
-    margin: .5em 0;
+#memberCards p{
+    margin-bottom: .5em;
+    margin-top: 0;
     font-size: 1.25em;
     padding: 0 5px;
+}
+
+#memberCards a {
+    margin: 1em;
+    font-size: 1em;
 }

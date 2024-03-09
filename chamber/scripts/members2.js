@@ -21,11 +21,8 @@ const displayMembers = (members) => {
         
         member.image.forEach((image) => {
             const biz_image = document.createElement('img');
-            // const alt = document.createElement('alt');
             biz_image.src = image.src;
             biz_image.alt = image.alt;
-            // alt.textContent = image.alt;
-            // logo.setAttribute('src', member.image);
             biz_image.setAttribute('loading', 'lazy');
             biz_image.setAttribute('width', '150');
             biz_image.setAttribute('height', 'auto')
@@ -41,7 +38,6 @@ const displayMembers = (members) => {
         const description = document.createElement('p');
         
         businessName.textContent = `${member.name}`;
-        // businessName.style.setProperty('color', 'black');
         address.textContent = `${member.address}`;
         city_state.textContent = `${member.city_state}`;
         phone.textContent = `${member.phone}`;

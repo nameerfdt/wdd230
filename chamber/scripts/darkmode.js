@@ -10,8 +10,7 @@ modeButton.addEventListener("click", () => {
 
 // THIS WILL CHANGE TO DARKMODE AND CHANGE BACK TO ORIGINAL WHEN CLICKED FOR THE JOIN PAGE
 
-// select all elements with the class of membership
-// const elements = document.querySelectorAll(".membership");
+// create var for all elements with the class of sections and links
 const elements = document.querySelectorAll(".sections");
 const links = document.querySelectorAll(".links");
 let isDarkMode = false;

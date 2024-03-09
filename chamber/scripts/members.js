@@ -21,7 +21,10 @@ const displayMembers = (members) => {
         card.classList.add('sections');
         const businessName = document.createElement('h2');
         const address = document.createElement('p');
+        const city_state = document.createElement('p');
         const phone = document.createElement('p');
+        const linkURL = document.createElement('p');
+
         const website = document.createElement('a');
         website.setAttribute('href',member.website);
         website.setAttribute('target', '_blank');
@@ -37,6 +40,7 @@ const displayMembers = (members) => {
         businessName.textContent = `${member.name}`;
         businessName.style.setProperty('color', 'black');
         address.textContent = `${member.address}`;
+        city_state.textContent = `${member.city_state}`;
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
         membership_level.textContent = `Membership Level: ${member.membership_level}`;
@@ -45,13 +49,12 @@ const displayMembers = (members) => {
         card.appendChild(logo);
         card.appendChild(businessName);
         card.appendChild(address);
+        card.appendChild(city_state);
         card.appendChild(phone);
         card.appendChild(website);
         card.appendChild(membership_level);
         card.appendChild(other_information);
         
-        
-
     memberCards.appendChild(card);
     });
     

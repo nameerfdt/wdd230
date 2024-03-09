@@ -2,7 +2,8 @@
     "members": [
       {
         "name": "Intel Corporation",
-        "address": "1900 Prairie City Road, Folsom, CA",
+        "address": "1900 Prairie City Road",
+        "city_state": "Folsom,CA",
         "phone": "916-356-6610",
         "website": "https://www.intel.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/intel.webp",

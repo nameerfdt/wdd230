@@ -1,7 +1,7 @@
 
 const gridBtn = document.querySelector("#gridBtn");
 const listBtn = document.querySelector('#listBtn');
-const display = document.querySelector('article');
+const display = document.querySelector('memberCards');
 
 gridBtn.addEventListener("click", () => {
     display.classList.add('gridBtn');

@@ -357,8 +357,3 @@ label.sbs input {
 #gridBtn, #listBtn {
     padding: 20px;
 }
-
-.listBtn {
-    display: flex;
-    flex-direction: column;
-}

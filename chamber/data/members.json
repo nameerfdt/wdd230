@@ -3,7 +3,7 @@
       {
         "name": "Intel Corporation",
         "address": "1900 Prairie City Road",
-        "city_state": "Folsom,CA",
+        "city_state": "Folsom, CA",
         "phone": "916-356-6610",
         "website": "https://www.intel.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/intel.webp",
@@ -13,6 +13,7 @@
       {
         "name": "Micron Technology, Inc.",
         "address": "2001 Danbury Street, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "555-987-6543",
         "website": "https://www.micron.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/micron-logo.webp",
@@ -22,6 +23,7 @@
       {
         "name": "Verizon",
         "address": "221 Iron Point Road, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "555-567-8901",
         "website": "https://www.verizon.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/verizon.webp",
@@ -31,6 +33,7 @@
       {
         "name": "PowerSchool",
         "address": "1000 Blue Ravine Road, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "916-294-8900",
         "website": "https://www.powerschool.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/powerschool.webp",
@@ -40,6 +43,7 @@
       {
         "name": "Waste Connections",
         "address": "3601 Hwy 50 East, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "916-609-3100",
         "website": "https://www.wasteconnections.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/wasteconnections.webp",
@@ -49,6 +53,7 @@
       {
         "name": "California Independent System Operator (CAISO)",
         "address": "250 Outcropping Way, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "916-608-7170",
         "website": "http://www.caiso.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/caiso.webp",
@@ -58,6 +63,7 @@
       {
         "name": "Caliber Home Loans",
         "address": "9200 Oak Avenue, Suite 100, Folsom, CA",
+        "city_state": "Folsom, CA",
         "phone": "800-401-6587",
         "website": "https://www.caliberhomeloans.com/",
         "image": "https://nameerfdt.github.io/wdd230/chamber/images/caliber-home.webp",

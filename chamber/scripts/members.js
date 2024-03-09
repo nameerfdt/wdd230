@@ -27,7 +27,7 @@ const displayMembers = (members) => {
         website.setAttribute('target', '_blank');
 
         const membership_level = document.createElement('p');
-        const other_information = document.createElement('p');
+        const description = document.createElement('p');
         const logo = document.createElement('img');
 
         logo.setAttribute('src', member.image);
@@ -41,7 +41,7 @@ const displayMembers = (members) => {
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
         membership_level.textContent = `Membership Level: ${member.membership_level}`;
-        other_information.textContent = `${member.other_information}`;
+        description.textContent = `${member.description}`;
         
         card.appendChild(logo);
         card.appendChild(businessName);
@@ -50,7 +50,7 @@ const displayMembers = (members) => {
         card.appendChild(phone);
         card.appendChild(website);
         card.appendChild(membership_level);
-        card.appendChild(other_information);
+        card.appendChild(description);
         
         memberCards.appendChild(card);
     });

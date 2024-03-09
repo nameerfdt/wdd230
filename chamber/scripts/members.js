@@ -1,4 +1,4 @@
- const baseURL = "https://nameerfdt.github.io/wdd230/chamber";
+const baseURL = "https://nameerfdt.github.io/wdd230/chamber";
 const membersURL = "https://nameerfdt.github.io/wdd230/chamber/data/members.json";
 
 async function getMemberData() {
@@ -54,8 +54,7 @@ const displayMembers = (members) => {
         card.appendChild(description);
         
         memberCards.appendChild(card);
-    });
-    
+    });    
 }
 
 

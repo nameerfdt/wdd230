@@ -319,3 +319,26 @@ label.sbs input {
     text-align: center;
     padding: 2em;
 }
+
+#memberCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+#memberCards section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#memberCards h2 {
+    margin: 1em 0;
+}
+
+#memberCards p, a{
+    margin: .5em 0;
+    font-size: 1.25em;
+    padding: 0 5px;
+}

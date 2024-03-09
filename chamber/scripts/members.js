@@ -39,7 +39,7 @@ const displayMembers = (members) => {
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
-        membership_level.textContent = `${member.membership_level}`;
+        membership_level.textContent = `Membership Level: ${member.membership_level}`;
         other_information.textContent = `${member.other_information}`;
         
         card.appendChild(logo);

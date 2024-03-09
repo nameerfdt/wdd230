@@ -10,6 +10,8 @@ async function getMemberData() {
 }
     getMemberData();
 
+const memberCards = document.querySelector('.grid');
+
 const displayMembers = (members) => {
 
     members.forEach((member) => {
@@ -50,7 +52,7 @@ const displayMembers = (members) => {
         card.appendChild(membership_level);
         card.appendChild(other_information);
         
-    memberCards.appendChild(card);
+        memberCards.appendChild(card);
     });
     
 }

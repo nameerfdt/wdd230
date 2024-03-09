@@ -123,4 +123,22 @@ form input.submitBtn {
     text-align: center;
     padding: 5em;
 }
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    align-items: center;
+    padding: 5px;
+}
+
+.list section h2 {
+    grid-column: 1/2;
+    font-size: 1em;
+}
+
+.list section p:not(:nth-last-child(-n+2)){
+    display: inline-block;
+}
+
 }

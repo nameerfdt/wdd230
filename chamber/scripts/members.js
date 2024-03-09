@@ -23,6 +23,8 @@ const displayMembers = (members) => {
         const address = document.createElement('p');
         const phone = document.createElement('p');
         const website = document.createElement('a');
+        website.setAttribute('href',member.website);
+        website.setAttribute('target', '_blank');
 
         const membership_level = document.createElement('p');
         const other_information = document.createElement('p');

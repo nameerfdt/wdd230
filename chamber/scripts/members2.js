@@ -1,6 +1,6 @@
 
 const baseURL = "https://nameerfdt.github.io/wdd230/chamber";
-const membersURL = "https://nameerfdt.github.io/wdd230/chamber/data/members.json";
+const membersURL = "https://nameerfdt.github.io/wdd230/chamber/data/members2.json";
 
 async function getMemberData() {
     const response = await fetch(membersURL);

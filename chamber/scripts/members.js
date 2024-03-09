@@ -17,7 +17,7 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         const card = document.createElement('section');
         card.classList.add('sections');
-        const businessName = document.createElement('h2');
+        const businessName = document.createElement('h3');
         const address = document.createElement('p');
         const city_state = document.createElement('p');
         const phone = document.createElement('p');
@@ -35,7 +35,7 @@ const displayMembers = (members) => {
         logo.setAttribute('width', '200');
         logo.setAttribute('width', '200');
         businessName.textContent = `${member.name}`;
-        businessName.style.setProperty('color', 'black');
+        // businessName.style.setProperty('color', 'black');
         address.textContent = `${member.address}`;
         city_state.textContent = `${member.city_state}`;
         phone.textContent = `${member.phone}`;

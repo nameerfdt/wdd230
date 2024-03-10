@@ -166,20 +166,27 @@
     margin-bottom: 5px;
   }
     
-  .info, .pagevisits {
+.pagevisits {
     text-align: var(--text-align);
-    font-size: 1em;
+    font-size: 1.5em;
+    margin-top: 3em;
   }
 
   #weather {
     /* display: flex; */
     align-items: center;
     justify-content: center;
+    text-align: var(--text-align);
+    font-size: 1.5em;
   }
 
-  /* #weather img {
-    margin-right: 10px;
-  } */
+  figure {
+    margin-top: 0;
+  }
+
+  #weather p:nth-child(2) {
+    margin-bottom: 0;
+  }
 
   .googlemaps {
     position: relative;

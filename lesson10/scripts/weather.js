@@ -30,11 +30,17 @@ apiFetch()
 
 // displyResults function to output to the given HTML document
 function displayResults(data){
-    currentTemp.innerHTML =`${data.main.temp}&deg;F`;
+    currentTemp.innerHTML =`${data.main.temp.toFixed(0)}&deg;F`;
     // data.weather[0].icon is for the first element in the data.weather array for the icon to display
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather[0].description;
+    let desc = capitalize(data.weather[0].description);
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = `${desc}`;
+}
+
+function capitalize(str) {
+    return str.replace(/\b\w/g, function(char){
+        return char.toUpperCase();
+    })
 }

@@ -172,14 +172,14 @@
   }
 
   #weather {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
   }
 
-  #weather img {
+  /* #weather img {
     margin-right: 10px;
-  }
+  } */
 
   .googlemaps {
     position: relative;

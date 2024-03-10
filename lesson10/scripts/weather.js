@@ -32,7 +32,7 @@ apiFetch()
 function displayResults(data){
     currentTemp.innerHTML =`${data.main.temp.toFixed(0)}&deg;F`;
     // data.weather[0].icon is for the first element in the data.weather array for the icon to display
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     let desc = capitalize(data.weather[0].description);
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);

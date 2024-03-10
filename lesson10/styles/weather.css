@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+p, figcaption {
+    font-size: 2em;
+}
+
+img {
+    width: 10rem;
+    
+}
+
+footer {
+    margin-top: 5em;
+}

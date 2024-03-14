@@ -32,8 +32,9 @@ function displayResults(data){
 
         const forecast = data.list[i];
 
+        const futureTemp = document.createElement('p');
         const tempElement = document.createElement('div');
-        tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
+        futureTemp.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
 
         const dateElement = document.createElement('div');
         dateElement.innerHTML = `Forecast for: ${forecast.dt_txt}`;
@@ -48,7 +49,7 @@ function displayResults(data){
 
         // Append each forecast entry to the respective container element
         card.appendChild(dateElement);
-        card.appendChild(tempElement);
+        card.appendChild(futureTemp);
         card.appendChild(iconElement);
         card.appendChild(descElement);
     document.getElementById('future-forecast').appendChild(card);

@@ -8,12 +8,13 @@
 // this gets the weather for 5 days
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=38.68&lon=-121.15&cnt=32&units=imperial&appid=c5c228cf26f7fad6c4c81bd04c1890f7';
 
-async function apiFetch(){
+async function apiFetchFuture(){
     try{
         const response = await fetch(forecastURL);
         if (response.ok) {
-            const forecastURL = await response.json();
-            displayResults(forecastURL);
+            const forecastData = await response.json();
+            // displayResults(forecastURL);
+            console.log(forecastData);
         } else {
             throw Error(await response.text());
         }
@@ -21,7 +22,7 @@ async function apiFetch(){
         console.log(error);
     } 
 }
-apiFetch()
+apiFetchFuture()
 
 // START THIS WORKS FOR SINGLE DAY AND
 // UNCOMMENTED LINES GET INFO 

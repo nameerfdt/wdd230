@@ -45,6 +45,12 @@
         </nav>
     </header>
 
+    <div id="banner">
+        <p>ATTENTION! All visitors and users are welcome to attend the Chamber of Commerce's meet and greet event on
+            Wednesday at 7:00 p.m. <span id="closeBanner"> ❌</span>
+        </p>
+    </div>
+
     <div id="hero-box">
         <picture>
             <source media="(max-width: 500px)" srcset="images/folsom-american-river1000-500.webp">
@@ -58,6 +64,7 @@
     </div>
 
     <main>
+
         <div id="home-grid">
             <section class="sections" id="events">
                 <h3>Events</h3>
@@ -70,7 +77,26 @@
             <section class="sections" id="weather">
                 <h3>Weather</h3>
                 <hr class="horizontal-line">
-                <img src="images/windy-svgrepo-com.svg" alt="wind icon" width="50" height="50">
+                <div id="currentWeather">
+                    <p>Current Temperature</p>
+                    <!-- <p>weather date(UTC): <span id="weather-date"></span></p> -->
+                    <p><span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+
+                <div id="weatherForecast">
+                    <p>Weather Forecast</p>
+                    <p><span id="future-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+
+                <!-- <img src="images/windy-svgrepo-com.svg" alt="wind icon" width="50" height="50"> -->
                 <p>Temperature: <span id="temperature">49</span> °F</p>
                 <p>Wind Speed: <span id="windSpeed">15</span> mph</p>
                 <p>Wind Chill: <span id="windChill"></span> °F</p>
@@ -150,7 +176,10 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/forecast.js"></script>
+
 
 </body>
 

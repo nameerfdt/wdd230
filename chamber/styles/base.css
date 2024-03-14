@@ -379,3 +379,20 @@ label.sbs input {
     background-color: lightgrey;
 }
 
+#banner {
+    /* display: none; */
+    margin: 1em auto;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: white;
+    text-align: center;
+    max-width: 1600px;
+    position: relative;
+    font-size: 1.5em;
+  }
+
+  #closeBanner {
+    /* position: absolute; */
+    top: 30px;
+    right: 100px;
+  }

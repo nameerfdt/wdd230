@@ -379,6 +379,29 @@ label.sbs input {
     background-color: lightgrey;
 }
 
+#currentWeather {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    padding-bottom: 5px;
+    text-align: center;
+}
+#currentWeather p,
+#currentWeather figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#currentWeather img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+
+}
+
 #banner {
     /* display: none; */
     margin: 1em auto;

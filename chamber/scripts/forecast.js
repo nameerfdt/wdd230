@@ -1,11 +1,4 @@
 
-// const forecastTemp = document.querySelector('#current-temp');
-// const forecastIcon = document.querySelector('#weather-icon');
-// const forcastCaptionDesc = document.querySelector('figcaption');
-
-// const date = document.querySelector(`#weather-date`);
-
-// this gets the weather for 5 days
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=38.68&lon=-121.15&cnt=32&units=imperial&appid=c5c228cf26f7fad6c4c81bd04c1890f7';
 
 async function apiFetchFuture(){
@@ -13,8 +6,7 @@ async function apiFetchFuture(){
         const response = await fetch(forecastURL);
         if (response.ok) {
             const forecastData = await response.json();
-            // displayResults(forecastURL);
-            console.log(forecastData);
+            displayFuture(forecastData);
         } else {
             throw Error(await response.text());
         }
@@ -24,17 +16,13 @@ async function apiFetchFuture(){
 }
 apiFetchFuture()
 
-// START THIS WORKS FOR SINGLE DAY AND
-// UNCOMMENTED LINES GET INFO 
 
-function displayResults(data){
-    // const card = document.querySelector('#weatherForecast')
+function displayFuture(data){
     const card = document.createElement('div');
     for (let i = 6; i < data.list.length; i +=8){
 
         const forecast = data.list[i];
 
-        // const futureTemp = document.createElement('p');
         const tempElement = document.createElement('div');
         tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
 
@@ -57,8 +45,6 @@ function displayResults(data){
         document.getElementById('weatherForecast').appendChild(card);
     }
 }
-
-
 
 function capitalize(str) {
     return str.replace(/\b\w/g, function(char){

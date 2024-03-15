@@ -400,6 +400,7 @@ h4 {
 }
 
 #currentWeather img, #weatherForecast img {
+    display: none;
     width: 50px; 
     height: auto;
 }

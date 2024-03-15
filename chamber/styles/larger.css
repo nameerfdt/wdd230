@@ -141,4 +141,7 @@ form input.submitBtn {
     display: inline-block;
 }
 
+#currentWeather img, #weatherForecast img {
+    display: block;
+}   
 }

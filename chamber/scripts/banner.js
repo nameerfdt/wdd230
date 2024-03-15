@@ -1,7 +1,7 @@
 const todaysDate = new Date();
 const currentDay = todaysDate.getDay();
 
-if (currentDay >= 1 && currentDay <=7){
+if (currentDay >= 1 && currentDay <=3){
     document.querySelector('#banner').style.display = 'block';
 } else {
     document.querySelector('#banner').style.display = 'none';

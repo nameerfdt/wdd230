@@ -27,7 +27,8 @@ function displayFuture(data){
         tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
 
         const dateElement = document.createElement('div');
-        dateElement.innerHTML = `Forecast for: ${forecast.dt_txt}`;
+        const date = forecast.dt_txt.substring(0,10);
+        dateElement.innerHTML = `Forecast for: ${date}`;
 
         const iconElement = document.createElement('img');
         const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;

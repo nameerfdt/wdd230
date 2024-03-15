@@ -23,10 +23,10 @@ function displayFuture(data){
 
         const forecast = data.list[i];
 
-        const tempElement = document.createElement('div');
+        const tempElement = document.createElement('p');
         tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
 
-        const dateElement = document.createElement('div');
+        const dateElement = document.createElement('p');
         const date = forecast.dt_txt.substring(0,10);
         dateElement.innerHTML = `Forecast for: ${date}`;
 
@@ -34,7 +34,7 @@ function displayFuture(data){
         const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
         iconElement.setAttribute('src', iconsrc);
 
-        const descElement = document.createElement('div');
+        const descElement = document.createElement('p');
         let desc = capitalize(forecast.weather[0].description);
         descElement.textContent = desc;
 

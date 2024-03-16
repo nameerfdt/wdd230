@@ -15,7 +15,7 @@ async function apiFetch(){
         if (response.ok) {
             // const data = await response.json();
             const today = await response.json();
-            // console.log(data);
+            console.log(today);
             // displayResults(data);
             displayResults(today)
         // else thrown an Error using the response.text()
@@ -44,9 +44,24 @@ function displayResults(today){
         weatherIcon.setAttribute('alt', desc);
         captionDesc.textContent = `${desc}`;
 
+        const windSpeed = document.querySelector('#windSpeed');
+        windSpeed.textContent = `${today.wind.speed.toFixed(0)}`;
+        
+
+        function calculateWindChill(currentTemp, windspeed) {
+            if (currentTemp <= 50 && windspeed > 3.0) {
+                const windchill = 34.74 + (0.6215 * currentTemp) - (35.75 * windspeed ** 0.16) + (0.4275 * currentTemp * (windspeed ** 0.16))
+                return windchill.toFixed(2);
+            } else {
+                return "N/A";
+            }
+        }
+        const windchill = calculateWindChill(today.main.temp, today.wind.speed);
+        document.getElementById("windChill").innerText = windchill;
+}
+        
 function capitalize(str) {
     return str.replace(/\b\w/g, function(char){
         return char.toUpperCase();
     })
-}
 }

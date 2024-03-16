@@ -46,7 +46,6 @@ function displayFuture(data){
             card.appendChild(iconElement);
             card.appendChild(descElement);
             }
-        // document.getElementById('weatherForecast').appendChild(card);
     }
     document.getElementById('weatherForecast').appendChild(card);
 }

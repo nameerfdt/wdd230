@@ -35,7 +35,7 @@ function displayFuture(data){
             const iconElement = document.createElement('img');
             const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
             iconElement.setAttribute('src', iconsrc);
-            document.getElementById('weather-icon').src = "";
+            // document.getElementById('weather-icon').src = "";
 
             const descElement = document.createElement('p');
             let desc = capitalize(forecast.weather[0].description);

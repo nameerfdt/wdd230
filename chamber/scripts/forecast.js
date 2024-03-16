@@ -7,6 +7,7 @@ async function apiFetchFuture(){
         if (response.ok) {
             const forecastData = await response.json();
             displayFuture(forecastData);
+            console.log(forecastData)
         } else {
             throw Error(await response.text());
         }
@@ -19,32 +20,35 @@ apiFetchFuture()
 
 function displayFuture(data){
     const card = document.createElement('div');
-    for (let i = 6; i < data.list.length; i +=8){
+    for (let i = 0; i < data.list.length; i ++){    
 
         const forecast = data.list[i];
+        if(forecast.dt_txt.includes('21:00')){
 
-        const tempElement = document.createElement('p');
-        tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
+            const tempElement = document.createElement('p');
+            tempElement.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
 
-        const dateElement = document.createElement('p');
-        const date = forecast.dt_txt.substring(0,10);
-        dateElement.innerHTML = `Forecast for: ${date}`;
+            const dateElement = document.createElement('p');
+            const date = forecast.dt_txt.substring(0,10);
+            dateElement.innerHTML = `Forecast for: ${date}`;
 
-        const iconElement = document.createElement('img');
-        const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
-        iconElement.setAttribute('src', iconsrc);
+            const iconElement = document.createElement('img');
+            const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
+            iconElement.setAttribute('src', iconsrc);
 
-        const descElement = document.createElement('p');
-        let desc = capitalize(forecast.weather[0].description);
-        descElement.textContent = desc;
+            const descElement = document.createElement('p');
+            let desc = capitalize(forecast.weather[0].description);
+            descElement.textContent = desc;
 
-        // Append each forecast entry to the respective container element
-        card.appendChild(dateElement);
-        card.appendChild(tempElement);
-        card.appendChild(iconElement);
-        card.appendChild(descElement);
-        document.getElementById('weatherForecast').appendChild(card);
+            // Append each forecast entry to the respective container element
+            card.appendChild(dateElement);
+            card.appendChild(tempElement);
+            card.appendChild(iconElement);
+            card.appendChild(descElement);
+            }
+        // document.getElementById('weatherForecast').appendChild(card);
     }
+    document.getElementById('weatherForecast').appendChild(card);
 }
 
 function capitalize(str) {

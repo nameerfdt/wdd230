@@ -379,22 +379,34 @@ label.sbs input {
     background-color: lightgrey;
 }
 
-#currentWeather, #weatherForecast {
+#currentWeather {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#weatherForecast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 h4 {
     padding-bottom: 0;
     text-align: center;
 }
-#currentWeather p,
-#currentWeather figure, #weatherForecast p, #weatherForecast figure {
+#weatherForecast p, #weatherForecast figure {
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#currentWeather p, #currentWeather figure{
     margin: 0;
     padding: 5px;
     text-align: center;
-}
+} 
 
 #currentWeather img, #weatherForecast img {
     display: none;

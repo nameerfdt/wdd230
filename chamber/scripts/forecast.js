@@ -19,9 +19,8 @@ apiFetchFuture()
 
 
 function displayFuture(data){
-    const card = document.createElement('div');
     for (let i = 0; i < data.list.length; i ++){    
-
+        const card = document.createElement('div');
         const forecast = data.list[i];
         if(forecast.dt_txt.includes('21:00')){
 
@@ -30,7 +29,7 @@ function displayFuture(data){
 
             const dateElement = document.createElement('p');
             const date = forecast.dt_txt.substring(0,10);
-            dateElement.innerHTML = `Forecast for: ${date}`;
+            dateElement.innerHTML = `${date}`;
 
             const iconElement = document.createElement('img');
             const iconsrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
@@ -46,9 +45,9 @@ function displayFuture(data){
             card.appendChild(tempElement);
             card.appendChild(iconElement);
             card.appendChild(descElement);
+            document.getElementById('weatherForecast').appendChild(card);
             }
     }
-    document.getElementById('weatherForecast').appendChild(card);
 }
 
 function capitalize(str) {

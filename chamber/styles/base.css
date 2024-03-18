@@ -172,6 +172,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     margin: 2em;
+    gap: 10px;
 }
 
 #quicklinks p {
@@ -180,8 +181,9 @@ footer {
 }
 
 footer a {
-    color:white;
+    color: white;
     text-decoration: none;
+    padding: 8px;
 }
 
 address #quicklinks {
@@ -308,7 +310,6 @@ label.sbs input {
     text-align: center;
     padding: 2em;
 }
-
 
 .grid {
     display: grid;

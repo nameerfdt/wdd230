@@ -425,3 +425,7 @@ h4 {
   #closeBanner {
     padding-left: 15px;
   }
+
+  #goldMember, #silverMember, #bronzeMember {
+    text-align: center;
+  }

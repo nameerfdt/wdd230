@@ -102,9 +102,6 @@ a:hover {
     color: black;
     font-size: 2em;
 }
-/* #medium-label, #large-label {
-    display: none;
-} */
 
 #joinBtn {
     position: absolute;
@@ -360,12 +357,7 @@ label.sbs input {
     margin: 0;
     align-items: center;
     padding: 5px;
-    /* font-size: 1em; */
 }
-
-/* .list section img, .list section p:nth-child(4), .list section p:last-child{
-    display: none;
-} */
 
 .list section img, .list section p:not(:nth-child(2)){
     display: none;

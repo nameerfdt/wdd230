@@ -232,7 +232,7 @@ li {
     padding-bottom: 10px;
 }
 
-p::before, li::before {
+p::before, li::before, #events p::before {
     content: attr(data-label);
     font-weight: bold;
 }

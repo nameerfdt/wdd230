@@ -105,20 +105,21 @@ a:hover {
 
 #joinBtn {
     position: absolute;
-    top: 5%;
-    left: 3%;
+    top: 3%;
+    left: 2%; 
     background-color: #edded2;
-    padding: 10px 10px;
+    padding: 5px 5x;
     cursor: pointer;
     border-radius: 10px;
 }
 
 h1 {
     position: absolute;
-    top: 55%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 1em;
+    white-space: nowrap;
 }
 
 main .child-pages {

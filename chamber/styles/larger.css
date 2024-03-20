@@ -25,6 +25,10 @@
     /* height: 600px; */
 }
 
+#joinBtn {
+    padding: 10px 10px;
+}
+
 #small-label, #medium-label {
     display: none;
 }
@@ -40,7 +44,9 @@
 
 h1 {
     font-size: 3em;
-    top: 50%;
+    /* top: 50%; */
+    top: 12%;
+    white-space: nowrap;
 }
 
 #home-grid {

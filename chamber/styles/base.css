@@ -238,14 +238,13 @@ p::before, li::before, #events p::before {
     display: block;
 
 }
-/* this is the groups of info */
+
 form fieldset {
     border-radius: 10px;
     padding-bottom: 1em;
     padding-left: 2em;
 }
 
-/* this is the fieldset titles */
 legend {
     padding: .5em;
     margin: 0;
@@ -253,7 +252,6 @@ legend {
     font-size: 1.5em;
 }
 
-/* this if first fieldset */
 form label.info, label.sbs {
     display: block;
     padding-top: 1em;

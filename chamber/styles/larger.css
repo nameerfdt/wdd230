@@ -112,7 +112,8 @@ img {
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 2em;
+    padding: 2em;
+    gap: 30px;
 }
 
 form label.info, label.sbs, textarea {

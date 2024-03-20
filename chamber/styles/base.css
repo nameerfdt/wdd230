@@ -237,7 +237,7 @@ p::before, li::before, #events p::before {
 
 .form-grid {
     display: block;
-
+    padding: 2em;
 }
 
 form fieldset {

@@ -434,3 +434,7 @@ h4 {
   #goldMember, #silverMember, #bronzeMember {
     text-align: center;
   }
+
+#events p, .sections {
+    padding: 0 2em;
+  }

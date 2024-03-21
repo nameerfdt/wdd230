@@ -6,7 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background: #F6F1D1;
+    background: #edded2;
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 10px;
@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 {
-    background-color: #F6F1D1;
+    background-color: #edded2;
     color: #3d6080;
     font-family: 'Mooli', sans-serif;
 }
@@ -80,7 +80,7 @@ td {
 }
 
 .secondary {
-    background-color: #F6F1D1;
+    background-color: #edded2;
 }
 .accent1 {
     background-color: black;

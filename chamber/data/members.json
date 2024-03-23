@@ -9,7 +9,7 @@
       "image": [
           {
             "src":"https://nameerfdt.github.io/wdd230/chamber/images/intel.webp",
-            "alt":"intel logo image"
+            "alt":"Intel business logo"
           }
       ],
       "membership_level": "Gold",
@@ -24,7 +24,7 @@
       "image": [
           {
             "src":"https://nameerfdt.github.io/wdd230/chamber/images/micron-logo.webp",
-            "alt": "micron logo image"
+            "alt": "Micron business logo"
           }
       ],
       "membership_level": "Gold",
@@ -39,7 +39,7 @@
       "image": [
         {
           "src":"https://nameerfdt.github.io/wdd230/chamber/images/verizon.webp",
-          "alt":"verizon logo image"
+          "alt":"Verizon business logo"
         }
       ],
       "membership_level": "Silver",
@@ -54,7 +54,7 @@
       "image": [
         {
           "src":"https://nameerfdt.github.io/wdd230/chamber/images/powerschool.webp",
-          "alt":"powerschool logo image"
+          "alt":"Powerschool business logo"
         }
       ],
       "membership_level": "Silver",
@@ -69,7 +69,7 @@
       "image": [
         {
           "src":"https://nameerfdt.github.io/wdd230/chamber/images/wasteconnections.webp",
-          "alt":"waste connections logo image"
+          "alt":"Waste Connections business logo"
         }
       ],
       "membership_level": "Bronze",
@@ -84,7 +84,7 @@
       "image": [
         {
           "src":"https://nameerfdt.github.io/wdd230/chamber/images/caiso.webp",
-          "alt":"CAISO logo image"
+          "alt":"CAISO business logo"
         }
       ],
       "membership_level": "Bronze",
@@ -99,7 +99,7 @@
       "image": [
         {
           "src":"https://nameerfdt.github.io/wdd230/chamber/images/caliber-home.webp",
-          "alt":"CAISO logo image"
+          "alt":"Caliber business logo"
         }
       ],
       "membership_level": "Non-Profit",

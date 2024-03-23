@@ -38,6 +38,7 @@ function displayFuture(data){
             const descElement = document.createElement('p');
             let desc = capitalize(forecast.weather[0].description);
             descElement.textContent = desc;
+            iconElement.setAttribute('alt', desc);
 
             // Append each forecast entry to the respective container element
             card.appendChild(dateElement);

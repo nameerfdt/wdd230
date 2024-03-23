@@ -40,10 +40,7 @@
 }
 
 h1 {
-    font-size: 3em;
-    /* top: 50%; */
-    top: 12%;
-    white-space: nowrap;
+    font-size: 3.5em;
 }
 
 #home-grid {
@@ -116,7 +113,7 @@ form label.info, label.sbs, textarea {
 }
 
 form input.submitBtn {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #thankyou {

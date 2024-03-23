@@ -93,6 +93,7 @@ a:hover {
 #hero-box img {
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 #small-label {
@@ -106,7 +107,8 @@ a:hover {
 #joinBtn {
     position: absolute;
     top: 3%;
-    left: 2%; 
+
+    right: 2%;
     background-color: #edded2;
     padding: 5px 5px;
     cursor: pointer;
@@ -114,22 +116,10 @@ a:hover {
 }
 
 h1 {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1em;
-    white-space: nowrap;
-}
-
-main .child-pages {
-    display: block;
-    position: static;
-    font-size: 2em;
     color: white;
     text-align: center;
-    transform: none;
     margin-top: 0;
+    margin-bottom: .5em;
 }
 
 main {
@@ -142,7 +132,7 @@ section {
     border: 1px solid black;
     margin: 20px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #edded2;
 }
 
@@ -156,6 +146,7 @@ h3 {
 }
 
 main h2 {
+    font-size: 2em;
     margin: 0;
     text-align: center;
     font-family: mooli;
@@ -214,7 +205,7 @@ h3, #visited {
 }
 
 #discover-images img {
-    border-radius: 10px;
+    border-radius: 32px;
 }
 
 .zoom {
@@ -312,11 +303,6 @@ label.sbs input {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    padding: 0 2em;
-}
-
-article{
-    padding: 0 2em;
 }
 
 .grid section {
@@ -349,6 +335,7 @@ article{
 
 #grid, #list {
     padding: 20px;
+    border-radius: 10px;
 }
 
 .grid img {
@@ -432,14 +419,12 @@ h4 {
     font-size: 1.5em;
   }
 
-  #closeBanner {
+#closeBanner {
     padding-left: 15px;
   }
 
-  #goldMember, #silverMember, #bronzeMember {
+#goldMember, #silverMember, #bronzeMember {
     text-align: center;
   }
 
-#events p, .sections {
-    padding: 0 2em;
-  }
+

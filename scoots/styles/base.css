@@ -1,0 +1,57 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+header h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bkg-color);
+    margin: 0 auto;
+    padding: 0;
+}
+.navigation a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        padding: 3px;
+        font-size: 1em;
+    }
+
+    #hamburgermenu {
+        position: absolute;
+        top: 2.5em;
+        right: 1em;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    #hamburgermenu::before {
+        content: "≡";
+    }
+
+    .navigation a {
+        display: none;
+    }
+
+    .show a {
+        display: block;
+    }
+    
+    #hamburgermenu.show::before {
+        content: "x";
+        background-color: var(--bkg-color);
+    }

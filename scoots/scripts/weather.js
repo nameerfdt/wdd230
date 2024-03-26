@@ -12,6 +12,7 @@ async function apiFetch(){
         if (response.ok) {
             const today = await response.json();
             displayResults(today)
+            console.log(today)
         } else {
             throw Error(await response.text());
         }
@@ -34,6 +35,9 @@ function displayResults(today){
         
         const humidity = document.querySelector('#humidity');
         humidity.textContent = `${today.main.humidity}`;
+
+        const windSpeed = document.querySelector('#windSpeed');
+        windSpeed.textContent = `${today.wind.speed.toFixed(0)}`;
     }
 
 function capitalize(str) {

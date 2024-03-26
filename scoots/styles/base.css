@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr;

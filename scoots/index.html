@@ -52,16 +52,29 @@
             <button id="reserveBtn" onclick="document.location='reservations.html'">Reserve Now!</button>
         </div>
 
+        <section id="weather">
+            <div id="currentWeather">
+                <p><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="images/placeholder.svg" alt="weather description">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Humidity: <span id="humidity"></span></p>
+            </div>
+
+        </section>
+
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> <br>Author<br> United States of America</p>
+        <p>&copy; <span id="currentyear"></span> <br>Tracy Freeman<br> United States of America</p>
 
         <div class="lastmodification">
-            <p>Last modification: <span id="lastmodification"></span> </p>
+            <p>Last update: <span id="lastmodification"></span> </p>
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>

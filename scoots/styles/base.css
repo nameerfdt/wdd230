@@ -93,4 +93,54 @@ header h2 {
         background-color: var(--bkg-color);
     }
 
-    
+    .form-grid {
+        display: block;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form fieldset {
+        width: 60%;
+        border-radius: 20px;
+        padding-bottom: 1em;
+        padding-left: 2em;
+        margin: 0 auto;
+        border: 2px solid white;
+    }
+
+    form label.info {
+        display: block;
+        padding-top: 1em;
+        font-size: 2em;
+        color: black;
+    }
+
+    form label.info input {
+        display: block;
+        padding: .5em;
+        border: 2px solid black;
+        width: 95%;
+        max-width: 200rem;
+    } 
+
+    textarea {
+        width: 100%;
+        min-height: 100px;
+        resize: vertical;
+        padding-left: 5px;
+        max-width: 50rem;
+        font-size: 1em;
+    } 
+
+    form input.submitBtn {
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2em;
+        padding: .25em;
+        margin-top: 1.5em;
+        /* margin-left: 1em; */
+        width: 100%;
+        max-width: 60rem;
+    }

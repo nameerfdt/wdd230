@@ -129,6 +129,17 @@
         background:lightgoldenrodyellow;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #otherCruiseLine {
+        display: none;
+    }
+
+
     /* contact styling */
     .form-grid {
         display: block;

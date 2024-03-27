@@ -10,8 +10,10 @@
     } */
 
     .navigation a {
-        display: block;
-        font-size: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.5em;
         margin: 0 auto;
         padding: 0 1em;
     }

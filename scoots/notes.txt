@@ -1,3 +1,10 @@
+References used:
+
+background image:
+https://www.pexels.com/search/Cozumel%20scooter/
+
+=========================
+
 map of el Centro de Cozumel
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14947.5913342209!2d-86.95571065901318!3d20.510414034194085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m5!1s0x8f4e59cceda3d799%3A0xbf8ea7e97451cfd8!2sCentro%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!3m2!1d20.5111971!2d-86.94613609999999!4m3!3m2!1d20.5121424!2d-86.9457972!5e0!3m2!1sen!2sus!4v1711305585116!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -103,3 +110,7 @@ https://www.celebritycruises.com/shore-excursions/czm/cozumel/destination-highli
 
 Contact example:
 https://atvrentalcozumel.jimdo.com/english/contact/
+
+
+form examples:
+https://www.jotform.com/form-templates/category/reservation

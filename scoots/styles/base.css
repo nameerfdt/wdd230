@@ -98,6 +98,38 @@
         content: "🛵 ";
     }
 
+    /* reservation styling */
+
+    #agreement {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background:lightgoldenrodyellow;
+        border-radius: 20px;
+        margin: 0 6rem;
+    }
+
+    #agreement p {
+        grid-column: 1/3;
+        text-align: center;
+        font-size: 3em;
+        color: rgb(225, 150, 12);
+    }
+
+    li {
+        /* font-size: 2em;*/
+        padding: .25em 0;
+        text-align: justify;
+        /* color: blue; */
+    }
+
+    ul {
+        margin: 0 2em 1em 2em;
+        font-size: 2em;
+        color: black;
+        background:lightgoldenrodyellow;
+    }
+
+    /* contact styling */
     .form-grid {
         display: block;
         padding: 2em;
@@ -118,7 +150,7 @@
         display: block;
         padding-top: 1em;
         font-size: 2em;
-        color: black;
+        color: lightgoldenrodyellow;
     }
 
     form label.info input {
